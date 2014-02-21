@@ -13,8 +13,27 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+    <script>
+      function init() {
+        map = new OpenLayers.Map("basicMap");
+        var mapnik = new OpenLayers.Layer.OSM();
+        map.addLayer(mapnik);
+        var location = new OpenLayers.LonLat(8.645183444023132, 49.87921245300291);
+        map.setCenter(location // Center of the map
+          .transform(
+            new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+            new OpenLayers.Projection("EPSG:900913") // to Spherical Mercator Projection
+          ), 15 // Zoom level
+        );
+        var markers = new OpenLayers.Layer.Markers( "Markers" );
+        map.addLayer(markers);
+        markers.addMarker(new OpenLayers.Marker(location));
+      }
+    </script>
   </head>
-  <body>
+  <body onload="init();">
     <div class="jumbotron">
       <div class="container">
           <h1>PyStaDa</h1>
@@ -24,6 +43,8 @@
 
     <div class="container">
       <p>Wir verstehen uns als lockere Gemeinschaft, die sich ohne Agenda zum Austausch über Projekte, Probleme und Ideen im Zwei Wochen Rythmus trifft.  Der Plan ist Immer mal wieder einen Vortrag über ein Python Projekt oder ein Software-Handwerks-Thema wie Version Control, Projektmanagement oder Ähnliches zu haben.</p>
+
+      <div class="pull-right" id="basicMap" style="width:500px; height: 350px; border: 2px solid #333333;"></div>
 
       <h2>Nächstes Treffen</h2>
       <p>26. Februar 2014 (<a href="https://pads.ccc.de/pystada-2014-02-26">Pad</a>)</p>
