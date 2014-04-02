@@ -1,82 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PyStaDa</title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PyStaDa</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
-    <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
-    <script>
-      function init() {
-        map = new OpenLayers.Map("basicMap");
-        var mapnik = new OpenLayers.Layer.OSM();
-        map.addLayer(mapnik);
-        var location = new OpenLayers.LonLat(8.645183444023132, 49.87921245300291);
-        map.setCenter(location // Center of the map
-          .transform(
-            new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
-            new OpenLayers.Projection("EPSG:900913") // to Spherical Mercator Projection
-          ), 15 // Zoom level
-        );
-        var markers = new OpenLayers.Layer.Markers( "Markers" );
-        map.addLayer(markers);
-        markers.addMarker(new OpenLayers.Marker(location));
-      }
-    </script>
-  </head>
-  <body onload="init();">
-    <div class="jumbotron" style="background-color: #2A5880; color: #ffffff">
-      <div class="container">
-          <h1>PyStaDa</h1>
-          <p>Die Webseite des Python Stammtisch Darmstadt</p>
-      </div>
-    </div>
+	<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+	<script>
+	function init() {
+		map = new OpenLayers.Map("basicMap");
+		var mapnik = new OpenLayers.Layer.OSM();
+		map.addLayer(mapnik);
+		var location = new OpenLayers.LonLat(8.645183444023132, 49.87921245300291);
+		map.setCenter(location // Center of the map
+			.transform(
+			new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+			new OpenLayers.Projection("EPSG:900913") // to Spherical Mercator Projection
+		  ), 15 // Zoom level
+		);
+		var markers = new OpenLayers.Layer.Markers( "Markers" );
+		map.addLayer(markers);
+		markers.addMarker(new OpenLayers.Marker(location));
+	}
+	</script>
+</head>
+<body onload="init();">
+	<div class="jumbotron" style="background-color: #2a5880; color: #ffffff">
+		<div class="container">
+			<h1>pystada</h1>
+			<p>die webseite des python stammtisch darmstadt</p>
+		</div>
+	</div>
 
-    <div class="container">
-      <p>Wir verstehen uns als lockere Gemeinschaft, die sich ohne Agenda zum Austausch über Projekte, Probleme und Ideen im Zwei-Wochen-Rhythmus trifft. Der Plan ist immer mal wieder einen Vortrag über ein <a href="https://www.python.org/">Python</a> Projekt oder ein Software-Handwerks-Thema wie Version Control, Projektmanagement oder Ähnliches zu haben.</p>
+	<div class="container">
+		<p>Wir verstehen uns als lockere Gemeinschaft, die sich ohne Agenda zum Austausch über Projekte, Probleme und Ideen im Zwei-Wochen-Rhythmus trifft. Der Plan ist immer mal wieder einen Vortrag über ein <a href="https://www.python.org/">Python</a> Projekt oder ein Software-Handwerks-Thema wie Version Control, Projektmanagement oder Ähnliches zu haben.</p>
 
-      <div class="pull-right" id="basicMap" style="width:500px; height: 350px; border: 2px solid #333333;"></div>
+		<div class="pull-right" id="basicMap" style="width:500px; height: 350px; border: 2px solid #333333;"></div>
 
-      <h2>Nächste Treffen</h2>
-	<ul>
-		<li>
-			<span>Mittwoch, 9. April 2014 um 19:30 Uhr (<a href="https://pads.ccc.de/pystada-2014-04-09">Agenda</a>)</span>
-		</li>
-		<li>
-			<span style="color: #999999;">Mittwoch, 23. April 2014 um 19:30 Uhr <!--(<a href="https://pads.ccc.de/pystada-2014-04-09">Agenda</a>)--></span>
-		</li>
-		<li>
-			<span style="color: #999999;">Mittwoch, 7. Mai 2014 um 19:30 Uhr <!--(<a href="https://pads.ccc.de/pystada-2014-04-09">Agenda</a>)--></span>
-		</li>
-	</ul>
-      <address>
-          <em>Trollhöhle</em> des <a href="https://chaos-darmstadt.de/">Chaos Darmstadt</a><br />
-          Wilhelm-Leuschner-Straße 36 (im Hinterhof)<br />
-          64293 Darmstadt
-      </address>
+		<h2>Nächste Treffen</h2>
+		<ul>
+			<li>
+				<span>Mittwoch, 9. April 2014 um 19:30 Uhr (<a href="https://pads.ccc.de/pystada-2014-04-09">Agenda</a>)</span>
+			</li>
+			<li>
+				<span style="color: #999999;">Mittwoch, 23. April 2014 um 19:30 Uhr <!--(<a href="https://pads.ccc.de/pystada-2014-04-09">Agenda</a>)--></span>
+			</li>
+			<li>
+				<span style="color: #999999;">Mittwoch, 7. Mai 2014 um 19:30 Uhr <!--(<a href="https://pads.ccc.de/pystada-2014-04-09">Agenda</a>)--></span>
+			</li>
+		</ul>
+		<address>
+			<em>Trollhöhle</em> des <a href="https://chaos-darmstadt.de/">Chaos Darmstadt</a><br />
+			Wilhelm-Leuschner-Straße 36 (im Hinterhof)<br />
+			64293 Darmstadt
+		</address>
 
-      Die Treffen finden alle 2 Wochen jeweils Mittwochs statt. Die Treffen sind öffentlich und eingeladen sind alle, die sich in irgendeiner Weise für Python interessieren.
-      Ankündigungen über neue Treffen werden vorher über die <a href="#mailinglist">Mailingliste</a> gemacht.
+		Die Treffen finden alle 2 Wochen jeweils Mittwochs statt. Die Treffen sind öffentlich und eingeladen sind alle, die sich in irgendeiner Weise für Python interessieren.
+		Ankündigungen über neue Treffen werden vorher über die <a href="#mailinglist">Mailingliste</a> gemacht.
 
-      <h2>Links &amp; Kontakt</h2>
-      <ul>
-        <li>Code: <a href="https://github.com/PyStaDa">PyStaDa @ GitHub</a></li>
-        <li>Twitter: <a href="https://twitter.com/PyStaDa">@PyStaDa</a></li>
-        <li>IRC: <a href="irc://irc.hackint.eu/pystada">#PyStaDa</a> auf <a href="http://hackint.org">Hackint</a></li>
-        <li id="mailinglist">Mailinglist: <a href="https://lists.chaos-darmstadt.de/mailman/listinfo/pystada">https://lists.chaos-darmstadt.de/mailman/listinfo/pystada</a></li>
-        <li>Kalender: <a href="http://private.chaos-darmstadt.de/~zorzar/PyStaDa.ics">http://private.chaos-darmstadt.de/~zorzar/PyStaDa.ics</a></li>
-      </ul>
-    </div>
+		<h2>Links &amp; Kontakt</h2>
+		<ul>
+			<li>Code: <a href="https://github.com/PyStaDa">PyStaDa @ GitHub</a></li>
+			<li>Twitter: <a href="https://twitter.com/PyStaDa">@PyStaDa</a></li>
+			<li>IRC: <a href="irc://irc.hackint.eu/pystada">#PyStaDa</a> auf <a href="http://hackint.org">Hackint</a></li>
+			<li id="mailinglist">Mailinglist: <a href="https://lists.chaos-darmstadt.de/mailman/listinfo/pystada">https://lists.chaos-darmstadt.de/mailman/listinfo/pystada</a></li>
+			<li>Kalender: <a href="http://private.chaos-darmstadt.de/~zorzar/PyStaDa.ics">http://private.chaos-darmstadt.de/~zorzar/PyStaDa.ics</a></li>
+		</ul>
+	</div>
 
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+	<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
