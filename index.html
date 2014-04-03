@@ -8,28 +8,24 @@
 
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/leaflet.css" rel="stylesheet">
 
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
-	<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+	<script src="js/leaflet.js"></script>
 	<script>
 	function init() {
-		map = new OpenLayers.Map("basicMap");
-		var mapnik = new OpenLayers.Layer.OSM();
-		map.addLayer(mapnik);
-		var location = new OpenLayers.LonLat(8.645183444023132, 49.87921245300291);
-		map.setCenter(location // Center of the map
-			.transform(
-			new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
-			new OpenLayers.Projection("EPSG:900913") // to Spherical Mercator Projection
-		  ), 15 // Zoom level
-		);
-		var markers = new OpenLayers.Layer.Markers( "Markers" );
-		map.addLayer(markers);
-		markers.addMarker(new OpenLayers.Marker(location));
+		var map = L.map('map').setView([49.87921245300291, 8.645183444023132], 14);
+		L.Icon.Default.imagePath = 'img';
+
+		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+		    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+
+		L.marker([49.87921245300291, 8.645183444023132]).addTo(map);
 	}
 	</script>
 </head>
@@ -42,41 +38,51 @@
 	</div>
 
 	<div class="container">
-		<p>Wir verstehen uns als lockere Gemeinschaft, die sich ohne Agenda zum Austausch über Projekte, Probleme und Ideen im Zwei-Wochen-Rhythmus trifft. Der Plan ist immer mal wieder einen Vortrag über ein <a href="https://www.python.org/">Python</a> Projekt oder ein Software-Handwerks-Thema wie Version Control, Projektmanagement oder Ähnliches zu haben.</p>
+		<div class="row">
+			<div class="col-md-12">
+				<p>Wir verstehen uns als lockere Gemeinschaft, die sich ohne Agenda zum Austausch über Projekte, Probleme und Ideen im Zwei-Wochen-Rhythmus trifft. Der Plan ist immer mal wieder einen Vortrag über ein <a href="https://www.python.org/">Python</a> Projekt oder ein Software-Handwerks-Thema wie Version Control, Projektmanagement oder Ähnliches zu haben.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Nächste Treffen</h2>
+			</div>
+		<div class="col-md-6">
+			<ul>
+				<li>
+					<span>Mittwoch, 9. April 2014 um 19:30 Uhr (<a href="https://pads.ccc.de/pystada-2014-04-09">Agenda</a>)</span>
+				</li>
+				<li>
+					<span style="color: #999999;">Mittwoch, 23. April 2014 um 19:30 Uhr <!--(<a href="https://pads.ccc.de/pystada-2014-04-09">Agenda</a>)--></span>
+				</li>
+				<li>
+					<span style="color: #999999;">Mittwoch, 7. Mai 2014 um 19:30 Uhr <!--(<a href="https://pads.ccc.de/pystada-2014-04-09">Agenda</a>)--></span>
+				</li>
+			</ul>
+			<address style="margin-left: 28px;">
+				<em>Trollhöhle</em> des <a href="https://chaos-darmstadt.de/">Chaos Darmstadt</a><br />
+				Wilhelm-Leuschner-Straße 36 (im Hinterhof)<br />
+				64293 Darmstadt
+			</address>
 
-		<div class="pull-right" id="basicMap" style="width:500px; height: 350px; border: 2px solid #333333;"></div>
+			<p>Die Treffen finden alle 2 Wochen jeweils Mittwochs statt. Die Treffen sind öffentlich und eingeladen sind alle, die sich in irgendeiner Weise für Python interessieren.
+			Ankündigungen über neue Treffen werden vorher über die <a href="#mailinglist">Mailingliste</a> gemacht.</p>
 
-		<h2>Nächste Treffen</h2>
-		<ul>
-			<li>
-				<span>Mittwoch, 9. April 2014 um 19:30 Uhr (<a href="https://pads.ccc.de/pystada-2014-04-09">Agenda</a>)</span>
-			</li>
-			<li>
-				<span style="color: #999999;">Mittwoch, 23. April 2014 um 19:30 Uhr <!--(<a href="https://pads.ccc.de/pystada-2014-04-09">Agenda</a>)--></span>
-			</li>
-			<li>
-				<span style="color: #999999;">Mittwoch, 7. Mai 2014 um 19:30 Uhr <!--(<a href="https://pads.ccc.de/pystada-2014-04-09">Agenda</a>)--></span>
-			</li>
-		</ul>
-		<address>
-			<em>Trollhöhle</em> des <a href="https://chaos-darmstadt.de/">Chaos Darmstadt</a><br />
-			Wilhelm-Leuschner-Straße 36 (im Hinterhof)<br />
-			64293 Darmstadt
-		</address>
-
-		Die Treffen finden alle 2 Wochen jeweils Mittwochs statt. Die Treffen sind öffentlich und eingeladen sind alle, die sich in irgendeiner Weise für Python interessieren.
-		Ankündigungen über neue Treffen werden vorher über die <a href="#mailinglist">Mailingliste</a> gemacht.
-
-		<h2>Links &amp; Kontakt</h2>
-		<ul>
-			<li>Code: <a href="https://github.com/PyStaDa">PyStaDa @ GitHub</a></li>
-			<li>Twitter: <a href="https://twitter.com/PyStaDa">@PyStaDa</a></li>
-			<li>IRC: <a href="irc://irc.hackint.eu/pystada">#PyStaDa</a> auf <a href="http://hackint.org">Hackint</a></li>
-			<li id="mailinglist">Mailinglist: <a href="https://lists.chaos-darmstadt.de/mailman/listinfo/pystada">https://lists.chaos-darmstadt.de/mailman/listinfo/pystada</a></li>
-			<li>Kalender: <a href="http://private.chaos-darmstadt.de/~zorzar/PyStaDa.ics">http://private.chaos-darmstadt.de/~zorzar/PyStaDa.ics</a></li>
-		</ul>
+			<h2>Links &amp; Kontakt</h2>
+				<ul>
+				<li>Code: <a href="https://github.com/PyStaDa">PyStaDa @ GitHub</a></li>
+				<li>Twitter: <a href="https://twitter.com/PyStaDa">@PyStaDa</a></li>
+				<li>IRC: <a href="irc://irc.hackint.eu/pystada">#PyStaDa</a> auf <a href="http://hackint.org">Hackint</a></li>
+				<li id="mailinglist">Mailinglist: <a href="https://lists.chaos-darmstadt.de/mailman/listinfo/pystada">https://lists.chaos-darmstadt.de/mailman/listinfo/pystada</a></li>
+				<li>Kalender: <a href="http://private.chaos-darmstadt.de/~zorzar/PyStaDa.ics">http://private.chaos-darmstadt.de/~zorzar/PyStaDa.ics</a></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<div class="pull-right" id="map" style="width:480px; height: 370px; border: 1px solid #888888;"></div>
+		</div>
 	</div>
 
+	<script src="js/jquery-2.1.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
