@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pystada-calendar//pystada.github.io//
+BEGIN:VEVENT
+SUMMARY:Python Stammtisch Darmstadt
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20140129T193000
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20140129T220000
+DTSTAMP;VALUE=DATE-TIME:20140129T150000Z
+UID:20140212T193000/0000001@pystada.github.io
+EXDATE;TZID=Europe/Berlin:20140515T193000
+EXDATE;TZID=Europe/Berlin:20140716T193000
+EXDATE;TZID=Europe/Berlin:20140918T193000
+EXDATE;TZID=Europe/Berlin:20141112T193000
+DESCRIPTION:Öffentlicher Stammtisch zur Programmiersprache Python
+LOCATION:Trollhöhle\, Wilhelm-Leuschner-Straße 36\, 64293 Darmstadt
+ORGANIZER:mailto:pystada@lists.chaos-darmstadt.de
+RRULE:FREQ=WEEKLY;INTERVAL=2
+URL:https://pystada.github.io
+END:VEVENT
+END:VCALENDAR
+
