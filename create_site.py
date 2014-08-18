@@ -15,8 +15,14 @@ def main():
 
         return line_template.format(date=date, month=date.strftime('%B'))
 
-    starting_date = datetime.datetime(2014, 8, 27, 19, 30)
+    today = datetime.datetime.now()
+    starting_date = datetime.datetime(2014, 8, 13, 19, 30)
     delta = datetime.timedelta(weeks=2)
+
+    while starting_date < today:
+        starting_date += delta
+
+    print("Nächster PyStaDa: {0}".format(starting_date))
 
     list_template = '''\
 <ul>
