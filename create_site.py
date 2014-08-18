@@ -18,11 +18,13 @@ def main():
     today = datetime.datetime.now()
     starting_date = datetime.datetime(2014, 1, 29, 19, 30)
     delta = datetime.timedelta(weeks=2)
+    meetings = 1
 
     while starting_date < today:
         starting_date += delta
+        meetings += 1
 
-    print("Nächster PyStaDa: {0}".format(starting_date))
+    print("Nächster PyStaDa: #{1} am {0}".format(starting_date, meetings))
 
     list_template = '''\
 <ul>
