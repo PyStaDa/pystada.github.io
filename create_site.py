@@ -16,7 +16,7 @@ def main():
         return line_template.format(date=date, month=date.strftime('%B'))
 
     today = datetime.datetime.now()
-    starting_date = datetime.datetime(2014, 8, 13, 19, 30)
+    starting_date = datetime.datetime(2014, 1, 29, 19, 30)
     delta = datetime.timedelta(weeks=2)
 
     while starting_date < today:
