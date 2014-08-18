@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PyStaDa</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/leaflet.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<script src="js/leaflet.js"></script>
+	<script>
+	function init() {{
+		var map = L.map('map').setView([49.87921245300291, 8.645183444023132], 14);
+		L.Icon.Default.imagePath = 'img';
+
+		L.tileLayer('http://{{s}}.tile.osm.org/{{z}}/{{x}}/{{y}}.png', {{
+		    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+		}}).addTo(map);
+
+		L.marker([49.87921245300291, 8.645183444023132]).addTo(map);
+	}}
+	</script>
+</head>
+<body onload="init();">
+	<div class="jumbotron" style="background-color: #000; color: #ffffff">
+		<div class="container">
+			<img style='float:left; height: 100px; width: 100; margin-right: 4px;' src="img/logo.jpg" alt="Logo"><h1>pystada</h1>
+			<p>die webseite des python stammtisch darmstadt</p>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p>Wir verstehen uns als lockere Gemeinschaft, die sich zum Austausch über Projekte, Probleme und Ideen im Zwei-Wochen-Rhythmus trifft. Der Plan ist es, immer mal wieder einen Vortrag über ein <a href="https://www.python.org/">Python</a>-Projekt oder ein Software-Handwerks-Thema wie Revisionskontrolle, Projektmanagement oder Ähnliches zu haben.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Nächste Treffen</h2>
+			</div>
+			<div class="col-md-6">
+{dates}
+				<address style="margin-left: 28px;">
+					<em>Trollhöhle</em> des <a href="https://chaos-darmstadt.de/">Chaos-Darmstadt</a><br />
+					Wilhelm-Leuschner-Straße 36 (im Hinterhof)<br />
+					64293 Darmstadt
+				</address>
+
+				<p>Die Treffen finden alle 2 Wochen jeweils Mittwochs statt. Die Treffen sind öffentlich und eingeladen sind alle, die sich in irgendeiner Weise für Python interessieren.
+				Ankündigungen über neue Treffen werden vorher über die <a href="#mailinglist">Mailingliste</a> gemacht.</p>
+
+				<h2>Links &amp; Kontakt</h2>
+					<ul>
+					<li>Code: <a href="https://github.com/PyStaDa">PyStaDa @ GitHub</a></li>
+					<li>Twitter: <a href="https://twitter.com/PyStaDa">@PyStaDa</a></li>
+					<li>IRC: <a href="irc://irc.hackint.eu/pystada">#PyStaDa</a> auf <a href="http://hackint.org">Hackint</a></li>
+					<li id="mailinglist">Mailinglist: <a href="https://lists.chaos-darmstadt.de/mailman/listinfo/pystada">https://lists.chaos-darmstadt.de/mailman/listinfo/pystada</a></li>
+					<li>Kalender: <a href="/calendar.ics">calendar.ics</a></li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<div class="pull-right" id="map" style="width:480px; height: 370px; border: 1px solid #888888;"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
