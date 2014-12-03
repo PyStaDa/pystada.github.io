@@ -1,30 +1,14 @@
-Mail Template für Invites.
-
-Platzhalter:
-<Name> = Absender, z.B.: Niko
-<Datum> = ausgeschrieben, z.B.: 26. März
-<yyyy-mm-dd> = Datum im gegebenen Format (für Pad), z.B.: 2014-03-26
-
-Ankündigungen sollten wenn möglich nicht nur auf der PyStaDa-ML, sondern auch auf anderen relavanten MLs erscheinen, da wir ja auch potenzielle neue Mitglieder ansprechen wollen.
-Gute Anlaufstellen:
-- CDA ML:  darmstadt@lists.metarheinmain.de - https://lists.metarheinmain.de/mailman/listinfo/darmstadt
-- Python-DE: python-de@python.org - http://mail.python.org/mailman/listinfo/python-de
-
--------------------
-
 Hallo,
 
 kommende Woche treffen wir uns wieder zum Darmstädter Python Stammtisch.
 
-Am <Datum> um 19:30 Uhr geht es los, in der Trollhöhle des Chaos Darmstadt e.V. im Hinterhof der Wilhelm-Leuschner-Str. 36.
-Das Pad zur Planung ist zu finden unter https://pads.ccc.de/pystada-<yyyy-mm-dd>
+Am {date.day}. {month} um 19:30 Uhr geht es los, in der Trollhöhle des Chaos Darmstadt e.V. im Hinterhof der Wilhelm-Leuschner-Str. 36.
+Das Pad zur Planung ist zu finden unter https://pads.ccc.de/pystada-{date.year}-{date.month:02}-{date.day:02} 
 
 Alle Interessenten sind hiermit herzlich eingeladen. Wir freuen uns auf euch!
 
 Informationen zum Stammtisch sind unter http://pystada.github.io/ zu finden.
 
 
-Beste Grüße,
-
-<Name>
+Viele Grüße
 
