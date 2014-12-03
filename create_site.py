@@ -4,6 +4,8 @@
 import datetime
 
 SHOWN_DATES = 3
+FIRST_DATE = datetime.datetime(2014, 1, 29, 19, 30)
+DELTA = datetime.timedelta(weeks=2)
 
 
 def main():
@@ -15,22 +17,15 @@ def main():
 
         return line_template.format(date=date, month=date.strftime('%B'))
 
-    today = datetime.datetime.now()
-    starting_date = datetime.datetime(2014, 1, 29, 19, 30)
-    delta = datetime.timedelta(weeks=2)
-    meetings = 1
 
-    while starting_date < today:
-        starting_date += delta
-        meetings += 1
-
+    starting_date, meetings = get_next_date()
     print("Nächster PyStaDa: #{1} am {0}".format(starting_date, meetings))
 
     list_template = '''\
 <ul>
 {elements}
 </ul>\
-'''.format(elements='\n'.join([format_date(starting_date + (i * delta), hide_agenda_link=i) for i in range(SHOWN_DATES)]))
+'''.format(elements='\n'.join([format_date(starting_date + (i * DELTA), hide_agenda_link=i) for i in range(SHOWN_DATES)]))
 
     with open('index.html.template') as template_file:
         site_template = ''.join(template_file.readlines())
@@ -39,5 +34,18 @@ def main():
         outputfile.write(site_template.format(dates=list_template))
 
 
+def get_next_date():
+    today = datetime.datetime.now()
+    meetings = 1
+    starting_date = FIRST_DATE
+
+    while starting_date < today:
+        starting_date += DELTA
+        meetings += 1
+
+    return (starting_date, meetings)
+
+
 if __name__ == '__main__':
     main()
+
