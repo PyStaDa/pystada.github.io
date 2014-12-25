@@ -6,6 +6,7 @@ import datetime
 SHOWN_DATES = 3
 FIRST_DATE = datetime.datetime(2014, 1, 29, 19, 30)
 DELTA = datetime.timedelta(weeks=2)
+DATES_TO_SKIP = (datetime.datetime(2014, 12, 31, 19, 30), )
 
 
 def main():
@@ -39,9 +40,11 @@ def get_next_date():
     meetings = 1
     starting_date = FIRST_DATE
 
-    while starting_date < today:
+    while starting_date < today or starting_date in DATES_TO_SKIP:
+        if starting_date not in DATES_TO_SKIP:
+            meetings += 1
+
         starting_date += DELTA
-        meetings += 1
 
     return (starting_date, meetings)
 
