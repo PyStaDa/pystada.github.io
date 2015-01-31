@@ -2,11 +2,20 @@
 # -*- coding: utf-8 -*-
 
 import datetime
+import locale
 
 SHOWN_DATES = 3
 FIRST_DATE = datetime.datetime(2014, 1, 29, 19, 30)
 DELTA = datetime.timedelta(weeks=2)
 DATES_TO_SKIP = (datetime.datetime(2014, 12, 31, 19, 30), )
+
+WANTED_LOCALE = 'de_DE.UTF-8'
+try:
+    locale.setlocale(locale.LC_ALL, WANTED_LOCALE)
+except locale.Error:
+    print("Einstellen der deutschen Sprachsettings gescheitert."
+          "Bitte sicherstellen, dass die locale '{0}' vorhanden ist."
+          .format(WANTED_LOCALE))
 
 
 def main():
