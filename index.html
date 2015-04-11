@@ -17,14 +17,14 @@
 	<script src="js/leaflet.js"></script>
 	<script>
 	function init() {
-		var map = L.map('map').setView([49.87921245300291, 8.645183444023132], 14);
+		var map = L.map('map').setView([49.8651, 8.6409], 14);
 		L.Icon.Default.imagePath = 'img';
 
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 		    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 		}).addTo(map);
 
-		L.marker([49.87921245300291, 8.645183444023132]).addTo(map);
+		L.marker([49.8651, 8.6409]).addTo(map);
 	}
 	</script>
 </head>
@@ -48,14 +48,14 @@
 			</div>
 			<div class="col-md-6">
 <ul>
-<li id="current"><span>Mittwoch, 8. April 2015 um 19:30 Uhr (<a href="https://pads.ccc.de/pystada-2015-04-08">Agenda</a>)</span></li>
-<li><span style="color: #999999;">Mittwoch, 22. April 2015 um 19:30 Uhr <!--(<a href="https://pads.ccc.de/pystada-2015-04-22">Agenda</a>)--></span></li>
-<li><span style="color: #999999;">Mittwoch, 6. Mai 2015 um 19:30 Uhr <!--(<a href="https://pads.ccc.de/pystada-2015-05-06">Agenda</a>)--></span></li>
+<li id="current"><span>Mittwoch, 22. April 2015 um 19:00 Uhr (<a href="https://pads.ccc.de/pystada-2015-04-22">Agenda</a>)</span></li>
+<li><span style="color: #999999;">Mittwoch, 6. Mai 2015 um 19:00 Uhr <!--(<a href="https://pads.ccc.de/pystada-2015-05-06">Agenda</a>)--></span></li>
+<li><span style="color: #999999;">Mittwoch, 20. Mai 2015 um 19:00 Uhr <!--(<a href="https://pads.ccc.de/pystada-2015-05-20">Agenda</a>)--></span></li>
 </ul>
 				<address style="margin-left: 28px;">
-					<em>Trollhöhle</em> des <a href="https://chaos-darmstadt.de/">Chaos-Darmstadt e.V:</a><br />
-					Wilhelm-Leuschner-Straße 36 (im Hinterhof)<br />
-					64293 Darmstadt
+					<em><a href="http://cowo21.de">COWO 21</a></em><br />
+					Holzhofallee 21<br />
+					64295 Darmstadt
 				</address>
 
 				<p>Die Treffen finden alle 2 Wochen jeweils Mittwochs statt. Die Treffen sind öffentlich und eingeladen sind alle, die sich in irgendeiner Weise für Python interessieren.
