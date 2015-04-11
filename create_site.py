@@ -5,9 +5,9 @@ import datetime
 import locale
 
 SHOWN_DATES = 3
-FIRST_DATE = datetime.datetime(2014, 1, 29, 19, 30)
+FIRST_DATE = datetime.datetime(2014, 1, 29, 19)
 DELTA = datetime.timedelta(weeks=2)
-DATES_TO_SKIP = (datetime.datetime(2014, 12, 31, 19, 30), )
+DATES_TO_SKIP = (datetime.datetime(2014, 12, 31, 19), )
 
 WANTED_LOCALE = 'de_DE.UTF-8'
 try:
@@ -21,9 +21,9 @@ except locale.Error:
 def main():
     def format_date(date, hide_agenda_link=False):
         if hide_agenda_link:
-            line_template = '<li><span style="color: #999999;">Mittwoch, {date.day}. {month} {date.year} um 19:30 Uhr <!--(<a href="https://pads.ccc.de/pystada-{date.year}-{date.month:02}-{date.day:02}">Agenda</a>)--></span></li>'
+            line_template = '<li><span style="color: #999999;">Mittwoch, {date.day}. {month} {date.year} um {date.hour}:{date.minute:02} Uhr <!--(<a href="https://pads.ccc.de/pystada-{date.year}-{date.month:02}-{date.day:02}">Agenda</a>)--></span></li>'
         else:
-            line_template = '<li id="current"><span>Mittwoch, {date.day}. {month} {date.year} um 19:30 Uhr (<a href="https://pads.ccc.de/pystada-{date.year}-{date.month:02}-{date.day:02}">Agenda</a>)</span></li>'
+            line_template = '<li id="current"><span>Mittwoch, {date.day}. {month} {date.year} um {date.hour}:{date.minute:02} Uhr (<a href="https://pads.ccc.de/pystada-{date.year}-{date.month:02}-{date.day:02}">Agenda</a>)</span></li>'
 
         return line_template.format(date=date, month=date.strftime('%B'))
 

@@ -17,14 +17,14 @@
 	<script src="js/leaflet.js"></script>
 	<script>
 	function init() {{
-		var map = L.map('map').setView([49.87921245300291, 8.645183444023132], 14);
+		var map = L.map('map').setView([49.8651, 8.6409], 14);
 		L.Icon.Default.imagePath = 'img';
 
 		L.tileLayer('http://{{s}}.tile.osm.org/{{z}}/{{x}}/{{y}}.png', {{
 		    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 		}}).addTo(map);
 
-		L.marker([49.87921245300291, 8.645183444023132]).addTo(map);
+		L.marker([49.8651, 8.6409]).addTo(map);
 	}}
 	</script>
 </head>
@@ -49,9 +49,9 @@
 			<div class="col-md-6">
 {dates}
 				<address style="margin-left: 28px;">
-					<em>Trollhöhle</em> des <a href="https://chaos-darmstadt.de/">Chaos-Darmstadt e.V:</a><br />
-					Wilhelm-Leuschner-Straße 36 (im Hinterhof)<br />
-					64293 Darmstadt
+					<em><a href="http://cowo21.de">COWO 21</a></em><br />
+					Holzhofallee 21<br />
+					64295 Darmstadt
 				</address>
 
 				<p>Die Treffen finden alle 2 Wochen jeweils Mittwochs statt. Die Treffen sind öffentlich und eingeladen sind alle, die sich in irgendeiner Weise für Python interessieren.
