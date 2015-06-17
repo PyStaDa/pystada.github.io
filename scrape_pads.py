@@ -1,6 +1,5 @@
 #! /usr/bin/env python
 
-import os
 import requests
 
 from create_site import get_dates
@@ -8,7 +7,6 @@ from create_site import get_dates
 
 def main():
     for date, meeting_number in get_dates():
-        # url = https://pads.ccc.de/ep/pad/export/pystada-2015-06-17/latest?format=txt
         url = "https://pads.ccc.de/ep/pad/export/pystada-{:%Y-%m-%d}/latest?format=txt".format(date)
 
         response = requests.get(url, verify=False)
