@@ -1,0 +1,19 @@
+PyStaDa Treffen #34 am 20.05.2015
+=====================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Wir vermissen Niko! :( (der fehlt ja auch)
+
+Agenda
+------
+ *  webfronentapp per api? -> angular oder backbone js
+ * restful apis mit flask howto: http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
+
+ * Create beautiful Javascript charts with minimal code
+   * JS graphen mit Google Charts in Jinja benutzen
+   * https://github.com/mher/chartkick.py
+   * fleaz nutzt chartkick.py und möchte das allen erklären
+
+ * Der hc erzählt am 3. Juni was zu https://pypi.python.org/pypi/PyMonad/
+
+

@@ -1,0 +1,30 @@
+PyStaDa Treffen #11 am 18.06.2014
+================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+ * Jeff Knupp beschäftigt sich mit idiomatischen Python. Hat dazu einen Blog ( http://www.jeffknupp.com/ ) und hat ein Buch darüber geschrieben: https://www.jeffknupp.com/writing-idiomatic-python-ebook/
+   * Writing Idiomatic Python - Video One: http://youtu.be/g0gNWGg2JxM
+   * Teil einer Kickstarter-Kampagne: https://www.kickstarter.com/projects/1219760486/a-writing-idiomatic-python-video-series-watch-and
+
+ * Editor-Empfehlung: PyCharm, weil es Hinweise zu konsistentem Coding, pep8 etc gibt.
+   * http://www.jetbrains.com/pycharm/
+   * community edition
+   * Pro-Licence für Studenten ziemlich günstig (~26$/Jahr)
+
+ * https://github.com/brettcannon/caniusepython3 i can haz py3? :>
+
+ * 10 awesome features of Python that you can't use because you refuse to upgrade to Python 3:
+https://asmeurer.github.io/python3-presentation/slides.html?utm_content=buffer8c136&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#1
+
+ * Code in eigenem Thread ausführen, dabei aber mit Daten des Ursprungsthreads arbeiten: 
+Code-Grundlage zum einfachen Verständnis: https://gist.github.com/okin/8d72949b8c4f6b15ead7
+
+ * Wie kann man schmerzfrei alle mit pip installierten Pakete upgraden?
+
+
+Logbuch
+ * http://jeffknupp.com/ Blog des "Idiomatic Python" Autoren
+

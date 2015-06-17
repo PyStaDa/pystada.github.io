@@ -1,0 +1,20 @@
+PyStaDa Treffen #24 am 17.12.2014
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+
+Agenda
+------
+ * Ausfall des Treffens an Sylvester?!
+ * Ergebnis vom Treffen mit @offenesDA
+ * amokleben hält einen Vortrag zu List Comprehensions
+   * Es wird außerdem gezeigt wie Haskell List Comprehensions funktionieren
+ * Python 2.7.9 ist draußen und bringt einige Änderungen für HTTPS-Verbindungen mit sich: https://www.python.org/downloads/release/python-279/
+ * 10 Myths of Enterprise Python: https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/
+   * Über Vorurteile gegenüber Python und was an ihnen (nicht) dran ist.
+ * guv: https://github.com/veegee/guv
+   * Cooles Projekt für async networking
+ * 7 tips to Time Python scripts and control Memory & CPU usage: http://www.marinamele.com/7-tips-to-time-python-scripts-and-control-memory-and-cpu-usage
+ * MusicMood - A machine learning approach to classify music by mood based on song lyrics: https://github.com/rasbt/musicmood
+ * Django and Flask: Why and When To Use Which https://www.hakkalabs.co/articles/django-and-flask
+

@@ -1,0 +1,51 @@
+PyStaDa Treffen #20 am 22.10.2014
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Ideenliste
+----------
+ * Creating Tor hidden services with Pythoon
+   https://jordan-wright.github.io/blog/2014/10/06/creating-tor-hidden-services-with-python/
+ * https://github.com/dutc/didyoumean
+ * 5 Mini-Programmier-Projekte für Python-Anfänger:
+https://medium.com/learning-journalism-tech/five-mini-programming-projects-for-the-python-beginner-21492f6ce0f3
+ * Sprint-Themen
+
+
+Protokoll
+---------
+
+ * https://github.com/chriskiehl/Gooey
+ * sh (previously pbs) is a full-fledged subprocess interface for Python that allows you to call any program as if it were a function:http://amoffat.github.io/sh/
+ * Vermutlich eher zum daheim sehen: (erste Version wurde vorher schon einmal refferenziert): http://www.jeffknupp.com/blog/2014/09/07/writing-idiomatic-python-videos-2-and-3-are-up/
+ * PyPy3 2.4.0 released: http://morepypy.blogspot.de/2014/10/pypy3-240-released.html
+ * Python podcasts
+   * radio free python - http://radiofreepython.com/
+   * from python import podcast - http://frompythonimportpodcast.com/
+   * A Little Bit of Python - http://bitofpython.com/
+   * Folge zu Stackless, Pypy un psyco: http://bitofpython.com/14-an-interview-with-christian-tismer-the-creator-of-stackless-discussion-on-topics-including-stackless-psyco-and-pypy.html
+   * import this (deutsch) - http://import-this.de/
+   * Binpress zu Twisted: http://www.binpress.com/blog/2014/10/07/binpress-podcast-episode-14-glyph-lefkowitz-twisted/
+ * Sentry zum Monitoring. Der "Client" dazu für Python heist python-raven
+ * Jobs mit Python (nicht nur als "Scriptsprache wie Ruby, Python, ...") selten
+   * auch auf Jobbörsen kaum Angebote
+   * XING
+   * PythonSoftwareFoundation Germany - http://python-verband.de
+   * Python Job Board - https://www.python.org/community/jobs/
+ * Mit Python anpassbare Handels-Software: http://financialsystems.sungard.com/solutions/trading-network-services/trade-order-management/front-arena
+ * http://legacy.python.org/dev/peps/pep-0476/ ist Amtlich, the BDFL anounced (13.10.2014):
+    """
+    I see no reason to hold up this PEP's approval any longer,
+    so I hereby approve PEP 476. It looks like a fair amount of
+    work is still needed to backport this to Python 2.7 (and a
+    smaller amount for 3.4) but I trust that this will all happen
+    before the next releases of these two. Congrats Alex!
+    """
+ * Sprint-Ideen
+   * OpenData für Darmstadt schaffen
+     * Scrapen des Parlamentsinformationssystems, um so maschinenlesbare Datenmengen zu schaffen
+   * Offener Haushalt
+     * Wenn Daten vorhanden, dann kann man https://github.com/okfde/offenerhaushalt.de zur Visualisierung nutzen
+
+
+

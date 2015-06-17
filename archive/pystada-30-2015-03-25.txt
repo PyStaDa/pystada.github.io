@@ -1,0 +1,7 @@
+PyStaDa Treffen #30 am 25.03.2015
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+keine Agenda. Offenes Arbeiten, Refactoring und Co.
+
+

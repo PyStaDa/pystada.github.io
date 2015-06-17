@@ -1,0 +1,21 @@
+PyStaDa Treffen #10 am 04.06.2014
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+ * Micropython: Eine Python-Implementierung, die möglichst effizient mit dem verfügbaren Speicher eines Microcontroller-Boards umgehen will: http://micropython.org/
+   * quasi Python 3-kompatibel
+   * Gibt spezielle Hardware dafür
+   * Code: https://github.com/micropython/micropython
+ * Optimierungen beim Erstellen von Strings
+   * Anstatt += eine Liste von Strings erstellen und später mit ''.join(liste) zusammenführen ist schnell
+   * Mehr Infos: https://wiki.python.org/moin/PythonSpeed/PerformanceTips
+ * Suche nach einem Memory Profiler
+   * https://pypi.python.org/pypi/memory_profiler
+ * Nikola Theming:
+   * Webframework Foundation 5 ist das Ziel - http://foundation.zurb.com/index.html
+   * Repo mit Themes für Nikola allgemein: https://github.com/getnikola/nikola-themes
+   * Jade zum Schreiben von HTML: http://jade-lang.com/
+

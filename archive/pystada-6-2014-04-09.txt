@@ -1,0 +1,66 @@
+PyStaDa Treffen #6 am 09.04.2014
+================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+ * 
+
+
+Ideensammlung
+-------------
+
+Live-Coding: Ausprobieren von Python 3.4-Features
+
+Übersicht unter: https://docs.python.org/3/whatsnew/3.4.html
+
+Vorschläge:
+ * Einfach
+   * enum
+     * Erstellen von Enums
+     * Ausgeben von Enums mit print()
+   * pathlib
+     * Wie kann man mit den neuen Objekten arbeiten?
+   * statistics
+     * Einfache statistische Auswertungen
+   * ipaddress
+     * Iteration über IP-Netze
+     * Klassifizierung von IP-Addressen (Unicast, Multicast, Private, Link-Local, Site-Local, 6to4, Teredo, usw.)
+     * impliziter IPv4 & IPv6 Support, im Zweifall für int < 2**32 IPv4 Assumption
+     * IPv6-Notation (.compressed <=> .exploded)
+     * Arithmetik und Vergleiche mit IP-Adressen und IP-Netzen
+   * re
+     * Zeigen der neuen Objekt-Darstellungen, die das Pattern und die Compile-Flags enthalten
+   * unittest
+     * https://docs.python.org/3/whatsnew/3.4.html#unittest
+     * Verwenden von unittest.subTest, um so in einer Test-Methode mehrere Unter-Tests zu haben
+
+ * Fortgeschritten
+   * asyncio
+   * marshal
+     * Änderungen an den neuen Files zeigen / Gegenüberstellung 3 und 2 - https://docs.python.org/3/whatsnew/3.4.html#whatsnew-marshal-3
+   * multiprocessing
+     * Verwendung als Contextmanager
+   * gc
+     * Wie verwendet man die neue Funktion get_stats?
+
+IPython 2.0:
+ * http://ipython.org/ipython-doc/dev/whatsnew/version2.0.html
+ * Tag auf Github: https://github.com/ipython/ipython/tree/rel-2.0.0
+
+Dropbox' Pyston: High-performance Python interpreter:
+ * https://tech.dropbox.com/2014/04/introducing-pyston-an-upcoming-jit-based-python-implementation/
+
+Just info:
+* API changes/compatibility report for the Python library
+http://upstream-tracker.org/versions/python.html
+
+Aus historischen Gründen:
+
+### Wollen wir Python Web-Hosting als Gruppenprojekt umsetzen?
+
+ * "Heroku Klon"
+ * Deployment per git push
+ * Um nichts kümmern müssen
+ * Yolo
+

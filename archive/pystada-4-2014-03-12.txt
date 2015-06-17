@@ -1,0 +1,40 @@
+PyStaDa Treffen #3 am 12.03.2014
+================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Ideensammlung
+-------------
+
+### Wollen wir Python Web-Hosting als Gruppenprojekt umsetzen?
+
+ * "Heroku Klon"
+ * Deployment per git push
+ * Um nichts kümmern müssen
+
+### HN-Potpourri
+ * http://stevenloria.com/python-best-practice-patterns-by-vladimir-keleshev-notes/
+ * http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html
+
+### Dominate - HTML-Dokumente per API erstellen
+ * https://pypi.python.org/pypi/dominate
+
+### The Zen of Python
+ * import this
+ * http://legacy.python.org/dev/peps/pep-0020/
+ * http://www.wefearchange.org/2010/06/import-this-and-zen-of-python.html
+
+### Andere Easter Eggs ?
+ * import antigravity
+
+### REST Api bauen (mit flask)
+* http://python-eve.org/index.html (mongodb)
+* https://flask-restless.readthedocs.org/en/latest/ (SQLAlchemy)
+* http://flask-restful.readthedocs.org/en/latest/ (egal)
+* https://github.com/voidfiles/lark (redis)
+
+### Beaglebone Black und python
+* https://github.com/adafruit/adafruit-beaglebone-io-python
+
+### svg graphs
+* http://pygal.org/
+

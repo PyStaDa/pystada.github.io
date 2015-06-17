@@ -1,0 +1,25 @@
+PyStaDa Treffen #13 am 16.07.2014
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+--- Special Edition: Zusammen mit der PyUGRM ---
+
+
+Agenda
+------
+
+ * https://github.com/rasbt/python_reference
+ * dazu passend: https://github.com/suchkultur/awesome-python
+ * http://hackflow.com/blog/2014/06/22/why-every-language-needs-its-underscore/ - das würde ich gerne gemeinsam mal durchgehen und ggfs. sogar gleich ein wenig code refactoren.
+   * https://github.com/Suor/funcy (gehört dazu; wird im post erwähnt)
+ * http://textblob.readthedocs.org/en/dev/ NLP *einfach*
+   * Bisher nur en und fr. Anleitung zum sprachen hinzufügen: https://github.com/sloria/TextBlob/issues/26
+ * http://www.nltk.org/ NLP (nicht ganz so einfach)
+ * http://www.obeythetestinggoat.com/
+ * http://aosabook.org/en/sqlalchemy.html database abstraction (architecture)
+
+https://trello.com
+
+Nicht Python, aber gut (IMO): Youtrack, issue tracker von JetBrains: http://www.jetbrains.com/youtrack/
+
+

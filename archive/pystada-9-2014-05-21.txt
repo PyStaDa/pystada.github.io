@@ -1,0 +1,24 @@
+PyStaDa Treffen #9 am 21.05.2014
+================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Ideensammlung
+-------------
+
+ * Die 10 am meisten gemachten Fehler von Python Programmierern: http://www.toptal.com/python/top-10-mistakes-that-python-programmers-make
+ * Statisches Bloggen mit Nikola und Versionierung + Hosting auf Github mit individueller Domain am Beispiel der http://pyugrm.de Webseite => http://getnikola.com
+ * Wir schauen uns Unicode und Python 3 an. Wie mit unicode und bytes umgehen, was schmerzt und was rockt. Auslösender Blogbeitrag: Everything you did not want to know about Unicode in Python 3 - http://lucumr.pocoo.org/2014/5/12/everything-about-unicode/
+ * Als Info: Flask Web Development Book von Miguel Grinberg: 
+klingt interessant - auch das Video (PyCon2014) von ihm ist gut. 
+Miguel Grinberg: Flask by Example - PyCon 2014
+http://www.youtube.com/watch?v=FGrIyBDQLPg
+
+http://blog.miguelgrinberg.com/           
+I have written a book on Web development with Python and Flask published by O'Reilly Media. 
+Visit http://flaskbook.com for information about my book.
+
+Protokoll
+---------------------------
+ * Was jeder über Unicode wissen sollte: http://www.joelonsoftware.com/articles/Unicode.html
+ * Umgang mit mixed Encoding: https://stackoverflow.com/a/10010006
+

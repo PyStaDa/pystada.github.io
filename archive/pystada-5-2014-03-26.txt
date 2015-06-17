@@ -1,0 +1,48 @@
+PyStaDa Treffen #5 am 26.03.2014
+================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+ * Vorstellungsrunde
+ * Python 2 oder 3?
+   * Python 3!
+   * http://py3readiness.org/
+   * https://caniusepython3.com/
+ * Neuigkeiten in Python 3.4
+   * http://docs.python.org/3/whatsnew/3.4.html
+   * Entscheidungshilfe: http://docs.python-guide.org/en/latest/scenarios/db/#db-api
+ * Python Debugger
+   * ipython
+   * bpython
+   * winpdb
+ * Lokaler PyPi-Mirror
+   * http://doc.devpi.net/latest/
+ * Repo & Package Structure:
+   * http://kennethreitz.org/repository-structure-and-python/
+ * UserError Handling: Sentry
+   * https://getsentry.com/welcome/
+
+Ideensammlung
+-------------
+
+Leichtgewichtigere SQLAlchemy Alternative:
+* standalone https://github.com/coleifer/peewee
+* mit flask https://github.com/coleifer/flask-peewee/
+
+Redis basierte workqueue alternative zu celery:
+* http://python-rq.org/docs/
+
+curl for humans:
+* https://github.com/jkbr/httpie
+
+
+Aus historischen Gründen:
+
+### Wollen wir Python Web-Hosting als Gruppenprojekt umsetzen?
+
+ * "Heroku Klon"
+ * Deployment per git push
+ * Um nichts kümmern müssen
+

@@ -1,0 +1,35 @@
+PyStaDa Treffen #22 am 19.11.2014
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Ideen
+-----
+1 - Ich hätte Lust mal ein kleines Mini-Projekt zu machen. 
+Irgendwas nützliches, Open-Data mäßiges oder auf Basis von gescrapten Daten oder so. Das war schon mal geplant, aber
+ich war dann ein paar mal nicht da und bin nicht sicher ob
+ihr da schon was am Laufen habt oder nicht(?)
+
+https://www.themoviedb.org/documentation/api
+http://www.gesetze-im-internet.de/ (https://github.com/bundestag/gesetze)
+ 
+2 - Davon abgesehen würde mich interessieren ob jemand Vagrant
+benutzt um Python Development-Environments aufzusetzen.
+Ich werde mich damit (konkret Vagrant + Ansible in Kombination) beschäftigen und vielleicht hat das ja schon jemand gemacht.
+
+* Vagrant: https://www.vagrantup.com/
+* Vagrant Boxes: http://vagrantcloud.com/
+* Ansible: http://docs.ansible.com/
+
+3 - Braucht man so was? Benuzt?
+http://mypy-lang.org/
+
+Agenda
+------
+ * Pandas fürs Daten Analysis:
+   * http://pandas.pydata.org/
+   * https://pandas-docs.github.io/pandas-docs-travis/
+
+ * Matplotlib Graphen in schöner: 
+   * http://web.stanford.edu/~mwaskom/software/seaborn/tutorial/aesthetics.html#aesthetics-tutorial
+
+

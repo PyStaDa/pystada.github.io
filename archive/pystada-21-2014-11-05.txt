@@ -1,0 +1,41 @@
+PyStaDa Treffen #21 am 05.11.2014
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+ * Treffen der PyUGRM nächste Woche: http://pyugrm.de/posts/pyugrm-treffen-im-november-2014/
+ * Benchmarking von Code, der iteratoren zurück gibt unter Python 3: wie mit möglichst wenig Overhead den Iterator iterieren?
+   * momentane Lösung: list() darauf anwenden, weil wenn es auf alle angewendet wird am einfachsten (zu verstehen) ist
+ * Django vs Flask vs Pyramid: Choosing a Python Web Framework: http://www.airpair.com/python/posts/django-flask-pyramid
+ * flaskbb: eine Foren-Software mittels Flask realisiert: https://github.com/sh4nks/flaskbb
+   * Demo-Forum: http://forums.flaskbb.org/
+   * Gibts auch in Django https://github.com/slav0nic/DjangoBB ;)
+ * PyCharm-Sonderversion kostenlos für Studenten: http://www.heise.de/developer/meldung/Python-IDE-JetBrains-veroeffentlicht-PyCharm-Version-fuer-Studenten-2441050.html
+   * https://www.jetbrains.com/pycharm-educational/
+   * Profitipp: Es gibt die Ultimate Version von JEDER Jetbrains Software kostenlos für Studenten ;)
+
+
+Ideenliste
+----------
+ * Creating Tor hidden services with Python
+   https://jordan-wright.github.io/blog/2014/10/06/creating-tor-hidden-services-with-python/
+ * 5 Mini-Programmier-Projekte für Python-Anfänger:
+https://medium.com/learning-journalism-tech/five-mini-programming-projects-for-the-python-beginner-21492f6ce0f3
+ * teleport.py - ein Tool zur Serialisierung und Validierung mit JSON: https://github.com/cosmic-api/teleport.py
+ * https://github.com/pyland/pyland Pyland aims to provide a fun and creative environment on the Raspberry Pi (or other platforms) to aid children learning programming and Computer Science Concepts. 
+
+ * Mein pylint geht kaputt :(
+   * http://paste.rainbownerds.de/?c3565b8d61ad1115#RRp8LZRsy82FAnIS+LC3feuiPkno0jJKiOcH6Kpz7yI=
+
+
+Watchlist
+---------
+
+Ich habe ein paar mehr Videos rund um Twisted gesucht und lasse die, die ich für interessant befunden habe mal hier. (Niko)
+
+ * Architecting an event-driven networking engine: Twisted Python - http://youtu.be/3R4gP6Egh5M
+ * Twisted Mixing - Blocking Code in Twisted / Twisted in Blocking Code: https://www.youtube.com/watch?v=A_NnHC2LcaE
+ * So Easy You Can Even Do It in JavaScript: Event-Driven Architecture for Regular Programmers: http://youtu.be/o7GR7cG7xJ0
+

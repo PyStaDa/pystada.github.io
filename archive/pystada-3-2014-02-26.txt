@@ -1,0 +1,39 @@
+PyStaDa Treffen #3 am 26.02.2014
+================================
+Visit: twitter.com/PyStaDa or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+# Themen
+
+### Seite auf Github.io: http://pystada.github.io/
+
+### Vorstellungsrunde
+
+ * Multiprocessing in Python (http://docs.python.org/3/library/multiprocessing.html)
+ * Multiprocessing nicht nur in Python, sondern auch via xargs (-P $n) auf der normalen Linux-Shell.
+
+### Python Remote Code Execution in socket.recvfrom_into() 
+http://www.reddit.com/r/netsec/comments/1yvjbu/python_remote_code_execution_in_socketrecvfrom/
+
+### Check, ob man Python 3 nutzen kann (aka. alle Dependencies es unterstützen):
+https://github.com/brettcannon/caniusepython3
+
+### The Gravity of Python 2
+http://blog.startifact.com/posts/python-2-gravity.html
+
+### Python Everywhere
+https://www.pythonanywhere.com
+
+### Redesign Python.org
+ * http://python.org
+ * mit Python-Shell zum Ausprobieren im Browser
+
+### Automatisierung mit doit
+ * doit - http://pydoit.org/
+ * https://github.com/okin/doit-presentation-pyugrm
+   * Präsentation gemacht mit deck.js - http://imakewebthings.com/deck.js/
+   * Einfacher Python-Webserver: python -m SimpleHTTPServer
+
+### Nächstes Treffen
+
+12.03.2014, 19:30 Uhr, Trollhöhle
+

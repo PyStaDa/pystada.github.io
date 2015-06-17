@@ -1,0 +1,39 @@
+PyStaDa Treffen #19 am 08.10.2014
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+
+- Viele tolle Dinge für Django Apps http://pinaxproject.com/
+- Tolles Wiki bezüglich XP und Pattern http://www.c2.com
+- Python Cookbook online: chimera.labs.oreilly.com/books/1230000000393
+
+Ideenliste
+----------
+
+ * Flask-XXL: einfach große Webapps mit Flask umsetzen: https://github.com/jstacoder/flask-xxl
+   * noch sehr junges Projekt
+ * Templates für die Erstellung von Scripten, Packages, Modulen...
+    => https://github.com/audreyr/cookiecutter ?
+ * Wie man mit SQLAlchemy den Speicherverbrauch von Anwendungen mit DB verringern kann: http://www.mobify.com/blog/sqlalchemy-memory-magic/
+ * http://funnybretzel.svbtle.com/datamining-a-flat-in-munich
+   * scrapy
+   * leider noch keine Zeit gehabt, fertig zu lesen :(
+ * PyPy 2.4: http://morepypy.blogspot.de/2014/09/pypy-240-released-9-days-left-in.html
+ * Wollen wir einen Sprint veranstalten? http://www.pyddf.de/sprint2014/
+ * Viele Python-Patterns mit Demo-Code: https://github.com/faif/python-patterns
+ * Micro-Python: Shop geöffnet: https://micropython.org/store/
+ * Wie Python im Lebenslauf anbringen?: http://www.reddit.com/r/Python/comments/2hy6r9/python_on_your_resume/
+
+ * Interessante: Python Packages
+   * memory_utils: https://github.com/jtushman/memory_utils
+     * Tools zum Check des Speicherverbrauchs
+ * Hat jemand Erfahrung mit MySQL Connector/Python? https://dev.mysql.com/doc/connector-python/en/index.html
+ * profiling: interaktiver Python-Profiler: https://github.com/what-studio/profiling
+   * Hat Möglichkeiten zum Remote-Profiling, bspw. bei lange laufenden Webanwendungen interessant
+ * sorted_containers: https://github.com/grantjenks/sorted_containers
+   * SortedList, SortedSet, SortedDict
+   * pure python
+
+Transforming Code into Beautiful, Idiomatic Python
+https://www.youtube.com/watch?v=OSGv2VnC0go
+

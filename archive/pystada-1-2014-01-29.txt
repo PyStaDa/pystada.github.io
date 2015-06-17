@@ -1,0 +1,55 @@
+PyStaDa Treffen #1 am 29.01.2014
+================================
+Visit: twitter.com/PyStaDa or join #PyStaDa on Hackint
+
+Agenda
+------
+
+
+-1. Vorstellungsrunde
+   * Wer sind wir eigentlich alle?
+
+
+0. Warum machen wir das hier eigentlich?
+   * Gibt PyUGRM. 
+   * Trifft sich aber nur alle 2 Monate und immer mit wechselndem Ort
+   * Daher => Stammtisch für Darmstadt
+   * Keine Konkurenz! Wir sind ein Kind dessen :)
+
+
+1. Was machen wir hier eigentlich?
+   * Finden wir unterwegs raus
+   * Keinen "festen" Vortragsplan. Wer Lust hat macht nen Vortrag
+   * Wir reden auch mal über die Themen außenrum.
+     * Git, Scrum, Pair Programming etc.
+
+
+2. Wie oft machen wir das eigentlich?
+   * Geplant waren ca. alle 2 Wochen
+
+
+3. Coole Dinge über die wir geredet haben:
+   * Lib, die Livepatching macht: http://werkzeug.pocoo.org/
+   * PyPy http://pypy.org/
+   * Unicode: https://github.com/LuminosoInsight/python-ftfy
+   * XML: http://lxml.de/
+   * PyQuery: https://pypi.python.org/pypi/pyquery
+   * Hosting
+     * Heroku: https://www.heroku.com/
+     * Uberspace: https://uberspace.de/
+   * Nowhere: ein in Python geschriebenes RPG
+     * Repo (bspw. Engine): https://bitbucket.org/duangle
+   * Wir haben unser erste eigenes Projekt auf GitHub
+     * https://github.com/PyStaDa/pyCal
+
+TODO:
+   * Mailingliste vom CDA? noc@
+   * Kalender (einfach ein ICS File irgendwo)
+
+4. Termin für nächstes Treffen
+   * 12.Februar 2014
+   * Selbe Zeit, selber Ort
+   * Agenda:
+     * Flask-Intro durch Zoran
+     * 
+

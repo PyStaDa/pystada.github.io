@@ -1,0 +1,33 @@
+PyStaDa Treffen #15 am 21.05.2014
+================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+-------------
+
+ * Cheatsheet für Support von Python 2&3 in einer Codebase: http://python-future.org/compatible_idioms.html
+ * Neue Version von ipython: http://ipython.org/
+ * Coding Dojo: einfache Code Katas zum Üben der eigenen Skills. Gerne auch als Pair-Programming.
+   * http://ccd-school.de/coding-dojo/
+ * Sims 4 benutzt Python zum modden
+   * http://www.reddit.com/r/Python/comments/2cnq6o/sims_4_modding_will_use_python/
+ * mock a mailserver:
+   $> sudo python -m smtpd -n -c DebuggingServer localhost:25
+
+ * Python distributions: 
+   * https://wiki.python.org/moin/PythonDistributions z.B:
+     * https://enthought.com/products/canopy/
+     * https://store.continuum.io/cshop/anaconda/
+ * str.format mit unpacking von locals:
+a = 'aaaaa'
+b = 1
+c = 1.2323
+'{a} - {b} - {c}'.format(**locals())
+
+
+Ideen nächstes Treffen
+----------------------
+
+ * Templates für die Erstellung von Scripten, Packages, Modulen...
+
+

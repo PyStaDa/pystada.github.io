@@ -1,0 +1,22 @@
+PyStaDa Treffen #23 am 03.12.2014
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+
+Agenda
+------
+ * Niko fragt: was war das Ergebniss der Open Data-Projekt-Frage im Pad zum letzten Treffen (https://pads.ccc.de/pystada-2014-11-19)? 
+   * Es gibt @offenesDA, welche Offene Daten für Darmstadt bereit stellen. Niko will sich mit ihnen Treffen, um Möglichkeiten der Zusammenarbeit zu besprechen.
+ * Vor 25 Jahren begann die Arbeit an Python: http://www.heise.de/newsticker/meldung/Vor-25-Jahren-Die-Arbeiten-an-Python-beginnen-2470002.html
+ * Williebot debuggen, so dass er im Channel auf funktioniert: https://gist.github.com/suchkultur/c6203764aac4163e37f9
+   * Hab ich schon gefixed: https://gist.github.com/f-breidenstein/466b92462ebf3f80e7e9 ;)
+ * Wir beteiligen uns an den 24 Pull Requests: http://24pullrequests.com/
+ * Python Unconference 2014
+   * http://bootev.github.io/2014-pythonunconf-schedule/index.html
+ * Pokemon Exception Handling:
+try:
+    [...]
+except:
+    print("Gotta catch em all!")
+
+

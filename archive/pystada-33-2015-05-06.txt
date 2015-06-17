@@ -1,0 +1,24 @@
+PyStaDa Treffen #33 am 06.05.2015
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+
+Agenda
+------
+ * The Little Book of Python Anti-Patterns http://docs.quantifiedcode.com/python-anti-patterns/index.html
+   * http://docs.quantifiedcode.com/python-anti-patterns/readability/asking_for_permission_instead_of_forgiveness_when_working_with_files.html
+ * Requests in die stdlib? https://lwn.net/SubscriberLink/640838/540a52174f263b89/
+ * pipreqs - Generate pip requirements.txt file based on imports of any project: https://github.com/bndr/pipreqs
+ * Mini-Einführung in asyncio (https://docs.python.org/3/library/asyncio.html)
+ * Testing coroutines (asyncio) with pytest: http://stefan.sofa-rockers.org/2015/04/22/testing-coroutines/
+ * Responses zum Testen/simulieren von (web)apis
+   * https://github.com/getsentry/responses
+ * doc string best practices?
+ * Tabs or Spaces: The answer is clear (Tabs)
+
+
+BITalino is a low-cost toolkit to learn and prototype applications using body signals. http://www.bitalino.com/
+
+Brain Waves for Hackers - EuroPython 2014   
+https://www.youtube.com/watch?v=6ewIEOyC5v0
+

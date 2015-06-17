@@ -1,0 +1,22 @@
+PyStaDa Treffen #8 am 07.05.2014
+================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Ideensammlung
+-------------
+
+d3non würde in einer kleinen livehacking Session ein Feature das er heute auf Arbeit gebraucht & gebaut hat vorstellen und ordentlich & generisch nachbauen.
+
+Interessant Module:
+einheitliches IO für Python2/3
+ https://github.com/mitsuhiko/python-unio
+argparse/optparse ersatz der nicht suckt
+ https://github.com/mitsuhiko/click
+
+Hat sich jemand http://myhdl.org/ angeschaut?
+
+
+Moderat python relevant aber cool:
+OpenWorm benutzt python für die validation pipeline
+ https://github.com/openworm/movement_validation
+

@@ -1,0 +1,23 @@
+PyStaDa Treffen #14 am 30.07.2014
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Protokoll
+---------
+
+ * Es war EuroPython vor ein paar Tagen. Hier gibts Videos von den Talks: 
+   * https://www.youtube.com/user/europython2014/videos
+ * Wie baut man Daemons mit Python?
+   * https://pypi.python.org/pypi/daemonize/2.3.1
+   * Per Hand mit os ;)
+ * Neue Version von pylint
+   * pip install pylint
+   * http://pylint.org/
+   * Changelog: http://www.logilab.org/blogentry/259107
+ * Python-Fields
+   * https://github.com/ionelmc/python-fields
+   * Vermeidung von Boilerplate-Code für Datenhaltungs-Klassen
+   * Alternativ: namedtuple (buildin) - https://docs.python.org/3/library/collections.html#collections.namedtuple
+   * Alternativ: Slots (buildin) - https://docs.python.org/3/reference/datamodel.html#object.__slots__
+ * Live-Refactoring
+

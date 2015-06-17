@@ -1,0 +1,20 @@
+PyStaDa Treffen #27 am 11.02.2015
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+ 
+
+Ideen
+-----
+
+ * Eure Python-Projekte:
+   * Opensuse Build Service Version Check: https://github.com/okin/obs-version-check
+   * pyStatus (statusbar für i3wm): https://github.com/f-breidenstein/pyStatus
+ * The Most Diabolical Python Antipattern: https://realpython.com/blog/python/the-most-diabolical-python-antipattern/
+ * PyPy 2.5: http://morepypy.blogspot.de/2015/02/pypy-250-released.html
+ * Python Tips and Traps: https://www.airpair.com/python/posts/python-tips-and-traps
+ * uuid: https://docs.python.org/2/library/uuid.html
+ * Wann schließt Python Dateien, wenn man kein "with" verwendet? http://blog.lerner.co.il/dont-use-python-close-files-answer-depends
+ * Python Survey 2014
+   * http://blog.frite-camembert.net/python-survey-2014.html
+   * Reddit-Thread mit Kommentaren: https://www.reddit.com/r/Python/comments/2u3oh0/results_of_the_python_2x_and_3x_use_survey_2014/
+

@@ -1,0 +1,27 @@
+PyStaDa Treffen #32 am 22.04.2015
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+
+Agenda
+------
+
+ * Lightning-Talk zu "argparse" (@amokleben)
+   * Slides: http://talks.nerdno.de/argparse-lightningtalk/
+   * Code: https://github.com/okin/argparse-lightning_talk/
+   * Weiterführend: how to write a well-behaved commandline application: http://de.slideshare.net/gjcross/tutorial1-14045370
+   * Docs: https://docs.python.org/3/library/argparse.html
+ * Python Patterns: welche Variante ist die schnellste? http://pythonfasterway.uni.me/
+   * Sachen mit Punkten drin, sind generell langsamer.
+   * Finger weg von Funktionsaufrufen!
+   * Die Beispiele sind teilweise schlecht gewählt, da funktional andere Sachen gemacht werden
+ * Die Macht der String-Formatierung: http://pyformat.info/
+ * SQLALchemy 1.0: http://www.sqlalchemy.org/blog/2015/04/16/sqlalchemy-1.0.0-released/
+ * Scrapple: Scraper nur mit einer Config-Datei erstellen: https://github.com/scrappleapp/scrapple
+   * Aktueller Stand Scraper RIS Darmstadt: https://github.com/mdrenger/scrapeDA
+ * Podcast.__init__ - noch ein neuer Python-Podcast: http://podcastinit.com/
+   * Auch noch neu: http://www.talkpythontome.com
+
+
+http://linuxlounge.net/~martin/pystada/string-formatting.py
+

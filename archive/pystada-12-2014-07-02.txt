@@ -1,0 +1,71 @@
+PyStaDa Treffen #12 am 02.07.2014
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+
+Ideen
+-----
+
+ * autodeployment von python Apps aus github
+   * https://github.com/d3non/flask-github-webhook
+   * github webhooks + flask (+ django reload)
+   * einige best practices
+   * refactoring/neue (kleine) features
+     * wieder live coden?
+     * REFACTOR: general code refactoring
+     * REFACTOR: don't read repositorys.json in on every request
+       * NEW: reload config on signal (eg SIGUSR1?)
+     * NEW: signature verification
+       * https://developer.github.com/webhooks/securing/
+     * NEW: logging
+     * NEW: listen on socket
+ * python twitter bot by example (@c3daysleft von d3non)
+   * https://github.com/d3non/c3daysleft
+   * code zeigen/erklären
+   * refactoring/neue (kleine) features
+     * wieder live coden?
+     * NEW: read in tweet texts from textfile
+       * reread on signal
+     * NEW: better distribution of tweeting time
+
+-ipython.embed()
+-bpython.embed()??
+
+Agenda
+------
+
+ * zorzar erzählt was vom Krieg^W^Wvon Clean Code Developer
+   * bewegung aus dem Buch "Clean Code" von Robert Martin
+   * beschäftigt sich damit wie man guten u. gut wartbaren Code schreibt
+   * sprach/umgebungsagnostisch (Bonus: es enthält Beispielcode in Python :))
+   * Deutsche Community dazu: http://clean-code-developer.de/
+   * Austauschmöglichkeit als lokale Usergroup ist die Softwerkskammer Rhein-Main: https://www.softwerkskammer.org/groups/rheinmain
+ * Gute Tutorials für Python-Anfänger?
+   * http://learnpythonthehardway.org/book/ war gut, aber ist das noch zeitgemäß?
+     * Python 2
+     * Kostenlos im Netz
+       * Bezahlversion hat Videos
+   * Python 101: http://www.amazon.de/Python-101-English-Michael-Driscoll-ebook/dp/B00KQTFHNK
+   * Python Koans: TDD-Ansatz zum Python lernen https://github.com/gregmalcolm/python_koans
+     * (d3non) habe (nur) die ruby koans gemacht und kann die empfehlen!
+     * gibts für Py2 und Py3 ;)
+     * (hexa) wie immer sollte erwähnt sein, dass TDD nicht unbedingt Spaß macht, was als Programmieranfänger enorm wichtig ist, um nicht die Motivation zu verlieren
+       * Programmier-Anfänger oder Python-Anfänger? Für Umsteiger(=Python-Anfänger) sind die Koans eigentlich recht geil (vor allem, wenn man TDD schonmal benutzt hat)
+   * Offizielles Python Tut: https://docs.python.org/3/tutorial/index.html
+   * Zum Ausprobieren von Code:
+     * ipython
+       * ipython-notebook +++!!!
+     * bpython <--- Cooler als ipython!
+   * Code Katas http://codekata.com/
+   * Nachschlagemöglichkeit mit Beispielen zur stdlib (und mehr): http://pymotw.com/2/contents.html
+ * Ausflug zu technischer Schuld und wie man mit guter / schlechter technischer Schuld umgehen kann: http://blog.crisp.se/2013/10/11/henrikkniberg/good-and-bad-technical-debt
+ * autodeployment von python Apps aus github
+   * https://github.com/d3non/flask-github-webhook
+     * Geclont unter https://github.com/PyStaDa/flask-github-webhook
+   * github webhooks + flask (+ django reload)
+   * einige best practices
+   * refactoring/neue (kleine) features
+     * REFACTOR: general code refactoring (PEP8)
+     * REFACTOR: don't read repositorys.json in on every request
+       * NEW: reload config on signal (eg SIGUSR1?)
+

@@ -1,0 +1,46 @@
+PyStaDa Treffen #17 am 10.09.2014
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Ideenliste
+----------
+
+ * Templates für die Erstellung von Scripten, Packages, Modulen...
+ * www.mobify.com/blog/sqlalchemy-memory-magic/
+ * Django1.7 released
+   * https://docs.djangoproject.com/en/1.7/releases/1.7/
+   * Whats new?
+   * Party?!
+ * Ich (@suchkultur) kann Django + Celery zeigen:
+   * Deployment-Button im Frontend
+   * Drei ge-chain()-te Celery-Tasks, die Asynchron durchlaufen und redis als Backend verwenden
+   * Celery "Flower" Webfrontend zum Monitoring
+   * Offen für Verbesserungsvorschläge (wer kennt sich aus?)
+ * PEP 476: Zertifikat-Validierung als Default in stdlib (urrlib / http): http://legacy.python.org/dev/peps/pep-0476/
+ * Richard Jones - Don't Do This (PyCon Australia 2003 Video, ca. 30min): https://www.youtube.com/watch?v=H2yfXnUb1S4
+   * Ist interessant zu sehen, aber vermutlich kein guter Talk für den Stammtisch.
+
+Fragen & Antworten?
+-------------------
+
+Q: Ich frag mich wie man umfangreiche `requirements.txt` Dateien am besten aufräumt, ohne gleich ein Testdeployment machen zu müssen. Gibt es vielleicht sogar ein Tool, dass tatsächlich benötigte requirements aus einem repo heraus destilieren kann? Konkret gibt es sogar mehrere files:
+
+* requirements_dev.txt
+* requirements_staging.txt
+* requirements_prod.txt
+* requirements_usera.txt
+* requirements_userb.txt
+
+Q: Wer kommt zur PyUGRM am nächsten Donnerstag? :-)
+
+
+
+Protokoll
+---------
+ * django-forms on steroids: floppy-forms & chrispy-forms
+
+
+
+
+ 
+

@@ -1,0 +1,22 @@
+PyStaDa Treffen #36 am 17.06.2015
+=====================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+ * Radler ist im Angebot für 0€, weil MHD überschritten
+ * David Beazley - Python Concurrency From the Ground Up: https://www.youtube.com/watch?v=MCs5OvhV9S4
+   * auch David Beazly, diesmal als Podcast: http://www.talkpythontome.com/episodes/show/12/deep-dive-into-modules-and-packages
+ * PyStaDa <3 O'Reilly
+ * PyStaDa: Seiten-Redesign
+   * Eher nicht, aber...
+   * Platz für Sponsoren-Links
+     * Currently: COWO21, O'Reilly
+     * @suchkultur kümmert sich um Einbindung
+   * Seite: https://github.com/PyStaDa/pystada.github.io
+ * PyStaDa: Scraper für Archivierung der Pads bauen
+ * How Much Python Do You Need To Know To Be Useful? http://developers.slashdot.org/story/15/06/11/1825250/how-much-python-do-you-need-to-know-to-be-useful
+ * retry: https://julien.danjou.info/blog/2015/python-retrying
+ * Integration Testing in Python with Context Managers: http://eigenhombre.com/2013/04/13/integration-testing-in-python-with-context-managers/
+

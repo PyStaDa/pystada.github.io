@@ -1,0 +1,62 @@
+PyStaDa Treffen #31 am 08.04.2015
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+* * Werbung * *
+ * 9.4. Party des Freifunk Darmstadt in der Oetinger Villa ab 19:00 https://darmstadt.freifunk.net/news/2015/03/16/wir-feiern-den-100sten-hotspot/
+ * 10.4. iCTF im CASED (Mornewegstraße 32, Raum 5.3.17 Treffpunkt 15:00 Uhr), Start 17:00 Uhr, Ende 2:00 Uhr am Folgetag
+   * Laptop, Strom und LAN-Kabel mitbringen!
+
+Orga-Kram:
+ * Offenes Darmstadt: Sucht 1-2-3 Vertreter für Hackathon, der mit der Stadt IT spricht (getriggert von Stadt IT :))
+   * Bei uns keine Kapazitäten zur Koordination frei, aber Interesse an Mitwirkung am Offenen-Darmstadt Projekt
+   * siehe z.B. RubinScraper (https://github.com/mdrenger/scrapeda)
+ * Alles neu, alles anders
+   * Umzug zum nächsten Termin (29. April, 19:00 Uhr) in den cowo21
+   * http://cowo21.de/
+   * Alle 2 Wochen: einmal Coding, einmal Vorträge
+ * Wunsch am O'Reilly-Bücherprogramm teil zu nehmen
+
+Themen
+ * A podcast on Python and related technologies http://www.talkpythontome.com/
+ * Python Packages and You http://blog.habnab.it/blog/2013/07/21/python-packages-and-you/
+ * Fast offline reverse geocoding https://github.com/thampiman/reverse-geocoder
+ * Small Pep8 Update https://mail.python.org/pipermail/python-dev/2015-April/139054.html
+   * Explizit ein "None" zurückgeben, anstatt sich darauf zu verlassen, dass es implizit geschieht.
+ * ternäre Operatoren gibt es in Python
+   * expr = False
+   * baz = 'foo' if expr else 'bar'
+ * threading / multiprocessing
+   * Kurze Einführung in multiprocessing.Pool
+   * https://docs.python.org/3/library/multiprocessing.html#multiprocessing.pool.Pool
+   * Input riesig (evtl. unendlich, hier großee Menge an Daten aus itertools.product (https://docs.python.org/3/library/itertools.html#itertools.product)) -> imap-Funktion (https://docs.python.org/3/library/multiprocessing.html#multiprocessing.pool.Pool.imap)
+   * Tipp: chunksize erhöhen
+ * Kurzer Ausflug: Schnelles baues von Listen: https://github.com/okin/list_comp_bench/blob/master/looping.py#L20
+ * asyncio (https://docs.python.org/3/library/asyncio.html)
+   * es ist toll/neu/großartig - aber wie benutzt man es?
+ * git wird 10 Jahre alt!
+   * http://www.heise.de/developer/meldung/Vor-10-Jahren-Linus-Torvalds-baut-Git-2596654.html
+   * Gitlab ist großartig!
+     * https://about.gitlab.com
+ * CI
+   * travis-ci.org ist toll, will man verwenden
+     * Demo-Config: https://github.com/mdrenger/scrapeDA/blob/master/.travis.yml
+
+Refactoring
+
+ * munin-tor (graphing support for the tor daemon) https://github.com/mweinelt/munin-tor
+
+GIThub Education Pack
+ * https://education.github.com/pack
+
+Juniper Python
+https://vimeo.com/111740148
+
+Yet again a source code management system
+ * https://kallithea-scm.org/
+
+Portierung nach Python 3
+ * http://python3porting.com/genindex.html
+ * Schrittweise vorgehen
+ * Tests!
+

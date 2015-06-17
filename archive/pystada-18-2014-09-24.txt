@@ -1,0 +1,17 @@
+PyStaDa Treffen #18 am 24.09.2014
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Ideenliste
+----------
+
+ * Templates für die Erstellung von Scripten, Packages, Modulen...
+=> https://github.com/audreyr/cookiecutter ?
+ * Wie man mit SQLAlchemy den Speicherverbrauch von Anwendungen mit DB verringern kann: www.mobify.com/blog/sqlalchemy-memory-magic/
+ * http://funnybretzel.svbtle.com/datamining-a-flat-in-munich
+   * scrapy
+   * leider noch keine Zeit gehabt, fertig zu lesen :(
+ * PyPy 2.4: http://morepypy.blogspot.de/2014/09/pypy-240-released-9-days-left-in.html
+ * Wollen wir einen Sprint veranstalten? http://www.pyddf.de/sprint2014/
+ * Vermutlich eher zum daheim sehen: (erste Version wurde vorher schon einmal refferenziert)http://www.jeffknupp.com/blog/2014/09/07/writing-idiomatic-python-videos-2-and-3-are-up/
+

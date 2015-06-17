@@ -1,0 +1,36 @@
+PyStaDa Treffen am 27.08.2014
+================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+ * The Python I Would Like to See - Zu Problemen aktueller Python-Implementierungen: http://lucumr.pocoo.org/2014/8/16/the-python-i-would-like-to-see/
+ * Sublime Text 3 für "Full Stack Python Development" einrichten: https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/
+   * Interessant besonders fürs Web
+   * Auch einige allgemein sinnvolle Einstellungen
+ * Alternative für Sublime Text, geschrieben in Go: Lime Text
+   * http://limetext.org/
+ * Code like a Pythonista: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
+ * Pyrasite: Code in laufende Python-Prozesse injecten: https://github.com/lmacken/pyrasite
+ * Zeit in Python
+   * Zeit ist schmerz
+   * Pythons stdlib ist nicht sehr pythonisch
+   * Package arrow ausprobieren
+   * Package moment https://github.com/zachwill/moment
+   * Sehr nützlich: https://github.com/vinta/awesome-python
+ * Rückkehr von Project Euler: https://projecteuler.net/ (Live-Coding einfacher Problemstellungen?)
+ * Einfache Arbeit mit Requests und OAuth: https://github.com/requests/requests-oauthlib
+ * Why Python 4.0 won't be like Python 3.0: http://www.curiousefficiency.org/posts/2014/08/python-4000.html
+ * Typ-Annotationen für Python 3.5? https://mail.python.org/pipermail/python-ideas/2014-August/028618.html
+ * Ich habe meinen Micropython dabei: https://micropython.org/ . Damit kann man super easy LEDs, Audio-Output, Schrittmotoren etc. mit ein paar Zeilen Python-Code programmieren. Man bekommt sogar einen REPL auf dem Ding (via /dev/modem).
+ * PyDev 3.7 Release, Debugger-Merge von PyDev & PyCharm: http://pydev.blogspot.de/2014/08/pydev-370-pydevpycharm-debugger-merge.html
+
+
+Vertagt
+-------
+
+ * Templates für die Erstellung von Scripten, Packages, Modulen...
+ * www.mobify.com/blog/sqlalchemy-memory-magic/
+
+

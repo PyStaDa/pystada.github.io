@@ -1,0 +1,38 @@
+PyStaDa Treffen #27 am 11.03.2015
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Ideen:
+-----
+Weniger Ideen als Fragen:
+Vielleicht hat einer ja Lust etwas zu Unittest und Debugging zu erzählen. 
+ * Ich erzähle gerne was zu den Unittests -amok
+Ich (Sven) würde hier gerne mehr lernen - bring auch meine Beispiele mit... 
+Einen einfacher Testaufrufen mit assert funktioniert.
+In einem Projekt sollte aber soweit ich verstanden habe, mehrere Tests in einem Testverzeichnis liegen. 
+Die Test müssten dann auf Classen / python Dateien im oberen Verzeichnis verweisen. 
+Habe das auch nach diesem Muster versucht: 
+    python -m unittest discover -s project_directory -p '*_test.py'
+    irgendwie hat das bei nicht funktioniert.
+Auch müsste man evtl. Dateistrukturen erzeugen, die getestet / manipuliert werden sollen. 
+    Wie machen das die Profis - Was nutzt man da als  Profi?
+    
+Zweite Frage - wie macht man am besten Debugging / Break Points in Programmen. 
+Bis jetzt war print mein Freund - immer wieder diese zu kommentieren / auszudokumentieren... Aufwendig. Eine Debug Variable auch möglich - macht man das so oder gibt es da was besseres?
+Vielleicht ist das einfachste zu sagen .. nimm doch PyCharm doch auch hier stellt sich bei mir noch die eine oder andere Frage ;)
+
+Updates:
+-------
+ * IPython 3.0 Released! 
+This iteration of IPython is setting up ground work for it to take over the world. Details after the jump!  ipython.org
+ * Kommt mit Python 3.5: erweitertes unpacking - dazu ein schöner Thread mit Beispielen bei Reddit https://www.reddit.com/r/Python/comments/2x8d64/pep_448_additional_unpacking_generalizations/
+
+
+Testing
+-------
+
+http://pytest.org/latest/
+
+pip install line_profiler
+
+

@@ -1,0 +1,16 @@
+PyStaDa Treffen #27 am 11.02.2015
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+ 
+
+Ideen
+-----
+ * kurze Vorstellung scipy + ipython-notebook stack (d3non)
+   * Was geht mit ipython notebook: http://nbviewer.ipython.org
+ * Webscraping mit scrapy (evtl. als Vorbereitung zum Treffen mit Offenes Darmstadt)?
+   * Tutorial: https://realpython.com/blog/python/web-scraping-with-scrapy-and-mongodb/
+   * Von Hand gebauter Scraper: https://github.com/frankfurt-gestalten/Parlis-Scraper/tree/modern_tech
+   * Ratsinfosys Darmstadt: https://darmstadt.more-rubin1.de
+   * Ziel: Inhalte maschinenlesbar bereitstellen können
+     * Ausgabeformat vllt OParl: http://oparl.org
+

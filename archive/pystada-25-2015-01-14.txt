@@ -1,0 +1,106 @@
+PyStaDa Treffen #25 am 14.01.2015
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+OpenData-Special
+----------------
+Diese Ausgabe steht ganz unter dem Zeichen von Offenen Daten (Open Data). Was sind offene Daten, was kann man damit machen und welche Initiativen gibt es?
+Wir werden dazu Besuch von Offenes Darmstadt (http://www.offenesdarmstadt.de/) bekommen.
+
+
+Protokoll
+---------
+
+ * Vorstellungsrunde
+ * OpenData, was ist das überhaupt? (Eine kleine Einführung in das Thema -Niko)
+   * Link kommt auf die Mailingliste: https://lists.chaos-darmstadt.de/mailman/listinfo/offenesdarmstadt
+ * Konkrete Fragen zu Daten
+   * Strom
+   * Wetter
+ * Anlaufstelle für gesammelte Daten schaffen
+   * Allgemein / Global
+   * Für Darmstadt?
+ * Welche Möglichkeiten gibt es Daten von Polizei und Ordnungsamt zu bekommen, um so bspw. zu visualisieren, wo viele Einsätze sind.
+   * Ordnungsamt möglich über Kleine Anfrage eines Stadtabgeordneten
+   * Karte der Stadt Köln
+   * Datenbank des Landes Hessen
+ * Projekt der TU Darmstadt zu Verkehr: http://www.da-sense.de/
+   * Daten von Mai 2014
+ * Darmstadt hat ein Projekt "Green Smart City"
+ * Datenportal Darmstadt
+   * Woher weiss ich wen ich für welche Daten ansprechen kann? (UX ;))
+   * Bürgerbüro am Luisenplatz kann helfen - aber vermutlich nicht bei detaillierten Sachen
+   * Software für Portale: http://ckan.org/ (ist in Python geschrieben)
+     * https://github.com/fraunhoferfokus/ckanext-berlin
+   * Erfahrungen aus Hamburg, auch in technischer Hinsicht: 
+     * http://media.ccc.de/browse/congress/2014/31c3_-_6582_-_de_-_saal_2_-_201412281600_-_das_transparenzportal_hamburg_-_lothar_hotz.html#video
+   * Was bringt der neue Stadtrat an Daten?  OpenData zu Dresden - Was kann erwartet werden und was muss gehackt werden?
+     * http://media.ccc.de/browse/conferences/datenspuren/2014/DS2014_-_5975_-_de_-_grosser_saal_-_201409131815_-_was_bringt_der_neue_stadtrat_an_daten_-_vater.html#video
+ * "Woher stammen meine Daten und welche Qualität haben sie?"
+   * Wird sowas berücksichtig?
+   * Anspruch OpenData: "Daten sind aktuell und vollständig."
+ * Möglichkeiten Feedback zu geben, bspw. schlechte Infrastruktur
+   * Meldeplattform Radverkehr für Hessen: http://www.meldeplattform-radverkehr.de/
+   * Schlechte Usability
+   * Melden muss einfach nutzbar sein, bspw. wie bei Ushahidi: http://www.ushahidi.com/
+ * Haushalt der Stadt Darmstadt im Stile des Offenen Haushalts: https://da-bei.darmstadt.de/discuss/Buergerhaushalt2014
+ * Code for Germany
+   * Einfache Möglichkeit per Mail-Kontakt Projekt auch in Darmstadt aufzuziehen
+ * Akoma Ntoso a “machine readable” set of simple technology-neutral electronic representations (in XML format) of parliamentary, legislative and judiciary documents. http://www.akomantoso.org/
+ * Bereits zur Verfügung stehenden Daten zum experimentieren / ausprobieren von Analyse/Scraping etc...
+   * http://www.darmstadt.de/standort/statistik-und-stadtforschung/
+   * http://www.heag.de/site/stadtwirtschaft,beteiligungsbericht
+   * ÖPNV-Daten wie bspw. Haltestellen und Fahrpläne bei DaDiNa
+     * OpenStreetMap kann Verkehrsdaten in bestimmten Formaten importieren
+ * Idee: Daten über Breitbandabdeckung auf Karten legen
+ * Konkret: Github-Repo zur Quellensammlung für Offene Daten: https://github.com/PyStaDa/opendata-sources
+ * Nächstes Treffen: 25. März
+
+
+Links / Seiten über die diskutiert wurde:
+ * Offene Wetterdaten: http://modellzentrale.de/
+ * Stadt<entwickler/innen />* nutzen offene Daten um ihre Stadt zu verbessern http://codefor.de/
+ * http://blog.zeit.de/open-data/
+ * https://offenedaten.de/
+
+
+Konkrete Projekt-Ideen
+----------------------
+
+ * OpenData-Portal für Darmstadt
+   * CKAN
+   * Freifunk stellt Daten bereit
+ * Offener Haushalt für Darmstadt
+   * Liegt als Excel vor, müsste man umwandeln
+ * Daten aus dem Parlamentsinformationssystem auf Stadtteile mappen
+   * https://darmstadt.more-rubin1.de/
+ * Daten aus dem PARLIS wandeln in Oparl, einem Standard für Daten aus Parlamentssystemen:
+   * http://oparl.org/
+   * 
+ * Möglichkeit Freifunk zu Präsentieren und Router an Interessenten zu verteilen
+
+Mögliche Locations
+==================
+
+ * Trollhöhle
+ * CoWo21
+ * TU Darmstadt
+
+Agenda
+------
+ * Die Idee zu Offenes Darmstadt
+   * Welche Ideen haben wir
+   * welche Ideen die Runde
+   * was machen wir daraus 
+   * (Andreas, Manuel, Stefan)
+
+
+-----
+Interessant ist zu wissen was fehlt / gebraucht wird: 
+ * Laut Seite "Die verwendeteten Daten sind noch nicht alle maschinenlesbar verfügbar,  sodass eine manuelle Erfassung nötig war. Gemeinsam mit Interessierten  und der Verwaltung möchten wir eine Veröffentlichung der Daten erreichen  – in der Reihenfolge, in der sie auch von Projekten verwendet werden."
+ * Warum also nicht die Beschlüsse auf einer Karte visualisieren und direkt mit der entsprechenden Vorlage verlinken?
+   * Wir streben dafür an, dass das Parlamentssystem der Stadt Darmstadt bald den kürzlich verabschiedeten Standard OParl unterstützt.
+   * Zwar stellt die Stadt Darmstadt auf ihrer Webseite Informationen zu  Großbaustellen zur Verfügung, dies erfordert aber aufwändige  Redaktionsprozesse. 
+ * Die Haushaltsdaten sind normalerweise auf ca. 1500 Seiten ausgedruckt bzw. PDF verteilt. 
+   * Seit 2013 gibt es eine TreeMap-Visualisierung auf den Seiten der Stadt. Ebenfalls seit 2013 werden die Daten auch als Excel-Datei veröffentlicht.
+

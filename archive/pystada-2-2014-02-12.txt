@@ -1,0 +1,37 @@
+PyStaDa Treffen #2 am 12.02.2014
+================================
+Visit: twitter.com/PyStaDa or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Flask
+-----
+
+https://github.com/PyStaDa/pyCal/tree/tmp/flask
+
+
+DOS auf NTP mit Python
+----------------------
+
+https://github.com/vpnguy/ntpdos
+
+
+Wo findet ihr neuen coolen Python Scheiß™?
+------------------------------------------
+
+https://pypi.python.org/pypi
+
+http://www.reddit.com/r/python
+
+http://hackerne.ws
+
+
+IPython ist super! BPython ist besser
+-------------------------------------
+
+
+Spontanvortrag über scapy
+-------------------------
+
+
+SQLAlchemy ist auch super!
+--------------------------
+

@@ -1,0 +1,53 @@
+PyStaDa Treffen #7 am 23.04.2014
+================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Ideensammlung
+-------------
+
+Pyringe:
+ * Pyringe is a python debugger capable of attaching to running processes, inspecting their state and even of injecting python code into them while they're running
+ * https://github.com/google/pyringe
+
+
+Leichtgewichtigere SQLAlchemy Alternative:
+ * standalone https://github.com/coleifer/peewee
+ * mit flask https://github.com/coleifer/flask-peewee/
+
+curl for humans:
+ * https://github.com/jkbr/httpie
+
+QR Code Generator:
+ * http://pypi.python.org/pypi/qrcode/
+
+Say “no” to import side‐effects in Python
+ * http://chrismorgan.info/blog/say-no-to-import-side-effects-in-python.html
+ * 
+
+Datenbanken als Website
+query-only interface, automatisch generiert aus dem datenmodell
+ * http://www.jeffknupp.com/blog/2013/12/20/your-database-just-got-its-own-website/
+ * http://flask.pocoo.org/snippets/60/
+ * https://docs.djangoproject.com/en/dev/topics/forms/modelforms/
+
+Python REST clients
+ * https://github.com/datafolklabs/drest
+ * https://github.com/Shopify/pyactiveresource
+ * http://seminar.io/2013/09/27/testing-your-rest-client-in-python/
+
+
+Python String-Formatting Benchmarks
+https://paste.linuxlounge.net/?c1ab53490874cafb#ogn1je0N0zBzG/sf6BfHYJCYRBdyqIN7+kNmgnKWQjg=
+
+ * Tests von amokleben geschrieben
+
+ * 2.7.6
+   * https://paste.linuxlounge.net/?0191e2671e1034b2#EncwlUo+4LiKeUGUrJVs93/5O3qwxTZTOoUFgYm8Poo=
+ * 3.4.0
+   * https://paste.linuxlounge.net/?c949259c752ce58d#oj4OxPF8xxDmi+4AMklHaW6JEmveIAGobxvNtcco3/E=
+ * pypy 2.2.1 (2.7.6 compatible)
+   * https://paste.linuxlounge.net/?d8bb0b070d7916d9#d3JRNoGQDCevNpG1Y6h3s8SpwaTU5z4Yel+9O7Bvgcg=
+
+ * Test im offiziellen Repository unter:
+   * Tools/stringbench/stringbench.py (http://hg.python.org/cpython/file/901b9afc918e/Tools/stringbench)
+
