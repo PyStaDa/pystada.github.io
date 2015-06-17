@@ -48,18 +48,27 @@ def main():
 
 def get_next_date():
     today = datetime.datetime.now()
+
+    for date, meeting_number in get_dates():
+        if date < today:
+            continue
+
+        return (date, meeting_number)
+
+
+def get_dates():
+    today = datetime.datetime.now()
     meetings = 1
     starting_date = FIRST_DATE
+    latest_date = today + DELTA
 
-    while starting_date < today or starting_date in DATES_TO_SKIP:
+    while starting_date <= latest_date:
         if starting_date not in DATES_TO_SKIP:
+            yield (starting_date, meetings)
             meetings += 1
 
         starting_date += DELTA
 
-    return (starting_date, meetings)
-
 
 if __name__ == '__main__':
     main()
-
