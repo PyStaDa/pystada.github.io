@@ -35,7 +35,9 @@ def main():
 <ul>
 {elements}
 </ul>\
-'''.format(elements='\n'.join([format_date(starting_date + (i * DELTA), hide_agenda_link=i) for i in range(SHOWN_DATES)]))
+'''.format(elements='\n'.join([format_date(starting_date + (i * DELTA),
+                                           hide_agenda_link=i)
+                               for i in range(SHOWN_DATES)]))
 
     with open('index.html.template') as template_file:
         site_template = ''.join(template_file.readlines())
