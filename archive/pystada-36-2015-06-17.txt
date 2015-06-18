@@ -16,7 +16,14 @@ Agenda
      * @suchkultur kümmert sich um Einbindung
    * Seite: https://github.com/PyStaDa/pystada.github.io
  * PyStaDa: Scraper für Archivierung der Pads bauen
+ * Gitlab (https://about.gitlab.com) ist cool!
  * How Much Python Do You Need To Know To Be Useful? http://developers.slashdot.org/story/15/06/11/1825250/how-much-python-do-you-need-to-know-to-be-useful
  * retry: https://julien.danjou.info/blog/2015/python-retrying
+   * In PyPI: https://pypi.python.org/pypi/retrying
+ * Sentry ist cool für das Monitoring von Anwendungen
+   * Gibts auch for free
+   * Die Docs: http://sentry.readthedocs.org/en/latest/
+ * AngularJS ist interessant:
+   * Wir schauen uns das bei syncthing an: https://github.com/syncthing/syncthing/blob/master/gui/scripts/syncthing/core/controllers/syncthingController.js
  * Integration Testing in Python with Context Managers: http://eigenhombre.com/2013/04/13/integration-testing-in-python-with-context-managers/
 
