@@ -9,7 +9,7 @@
   <title>PyStaDa</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/leaflet.css" rel="stylesheet">
-	
+
 	<!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -33,8 +33,7 @@ function init() {{
 <body onload="init();">
   <div class="jumbotron" style="background-color: #000; color: #ffffff">
     <div class="container">
-      <img alt="Logo" src="img/logo.jpg" style=
-      'float:left; height: 100px; width: 100; margin-right: 4px;'>
+      <img alt="Logo" src="img/logo.jpg" style='float:left; height: 100px; width: 100; margin-right: 4px;'>
 
       <h1>pystada</h1>
 
@@ -45,12 +44,10 @@ function init() {{
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p>Wir verstehen uns als lockere Gemeinschaft, die sich zum Austausch
-        über Projekte, Probleme und Ideen alle zwei Wochen trifft. Mit
-        Schwerpunkt auf der Programmiersprache <a href=
-        "https://www.python.org/">Python</a> diskutieren wir konkrete
-        Software-Projekte als auch Themen des Programmierhandwerks wie
-        Revisionskontrolle, Projektmanagement oder Debugging.</p>
+        <p>Wir verstehen uns als lockere Gemeinschaft, die sich zum Austausch über Projekte, Probleme und Ideen alle
+        zwei Wochen trifft. Mit Schwerpunkt auf der Programmiersprache <a href="https://www.python.org/">Python</a>
+        diskutieren wir konkrete Software-Projekte als auch Themen des Programmierhandwerks wie Revisionskontrolle,
+        Projektmanagement oder Debugging.</p>
       </div>
     </div>
 
@@ -68,11 +65,37 @@ function init() {{
           64295 Darmstadt
         </address>
 
-        <p>Die Treffen finden alle 2 Wochen jeweils Mittwochs statt. Die
-        Treffen sind öffentlich und eingeladen sind alle, die sich in
-        irgendeiner Weise für Python interessieren. Ankündigungen über neue
-        Treffen werden vorher über die <a href="#mailinglist">Mailingliste</a>
-        gemacht.</p>
+        <p>Die Treffen finden alle 2 Wochen jeweils Mittwochs statt. Die Treffen sind öffentlich und eingeladen sind
+        alle, die sich in irgendeiner Weise für Python interessieren. Ankündigungen über neue Treffen werden vorher
+        über die <a href="#mailinglist">Mailingliste</a> gemacht.</p>
+
+        <h2>Sponsoren</h2>
+
+        <p>Der Python Stammtisch Darmstadt dankt seinen Sponsoren:</p>
+
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail" href="http://cowo21.de/"><img alt="COWO21-Logo" src=
+            "http://cowo21.de/wp-content/uploads/2014/06/logo_neu-300x131.jpg"></a>
+          </div>
+
+          <p><strong>COWO21</strong></p>
+
+          <p>Der COWO21 ist ein Coworking Space in Darmstadt und bietet den PyStaDa-Treffen einen gemütlichen und
+          professionellen Rahmen.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail" href="http://www.oreilly.de/"><img alt="OReilly Webseite" src=
+            "http://www.oreilly.de/images/oreilly/oreilly.gif"></a>
+          </div>
+
+          <p><strong>O'Reilly Verlag</strong></p>
+
+          <p>Der O'Reilly Verlag verlegt einige sehr bekannte Bücher rund um Python und unterstützt tatkräftig die
+          Community.</p>
+        </div>
 
         <h2>Links &amp; Kontakt</h2>
 
@@ -83,8 +106,7 @@ function init() {{
           <li>Twitter: <a href="https://twitter.com/PyStaDa">@PyStaDa</a>
           </li>
 
-          <li>IRC: <a href="irc://irc.hackint.eu/pystada">#PyStaDa</a> auf
-          <a href="http://hackint.org">Hackint</a>
+          <li>IRC: <a href="irc://irc.hackint.eu/pystada">#PyStaDa</a> auf <a href="http://hackint.org">Hackint</a>
           </li>
 
           <li id="mailinglist">Mailinglist: <a href=
@@ -97,8 +119,7 @@ function init() {{
       </div>
 
       <div class="col-md-6">
-        <div class="pull-right" id="map" style=
-        "width:480px; height: 370px; border: 1px solid #888888;"></div>
+        <div class="pull-right" id="map" style="width:480px; height: 370px; border: 1px solid #888888;"></div>
       </div>
     </div>
   </div><script src="js/jquery-2.1.0.min.js"></script> <script src="js/bootstrap.min.js"></script>
