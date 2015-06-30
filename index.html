@@ -1,82 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>PyStaDa</title>
 
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/leaflet.css" rel="stylesheet">
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+
+  <title>PyStaDa</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/leaflet.css" rel="stylesheet">
 
 	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
-	<script src="js/leaflet.js"></script>
-	<script>
-	function init() {
-		var map = L.map('map').setView([49.8651, 8.6409], 14);
-		L.Icon.Default.imagePath = 'img';
+  <script src="js/leaflet.js"></script>
+  <script>
+function init() {
+        var map = L.map('map').setView([49.8651, 8.6409], 14);
+        L.Icon.Default.imagePath = 'img';
 
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-		    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-		}).addTo(map);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap<\/a> contributors'
+        }).addTo(map);
 
-		L.marker([49.8651, 8.6409]).addTo(map);
-	}
-	</script>
+        L.marker([49.8651, 8.6409]).addTo(map);
+    }
+  </script>
 </head>
-<body onload="init();">
-	<div class="jumbotron" style="background-color: #000; color: #ffffff">
-		<div class="container">
-			<img style='float:left; height: 100px; width: 100; margin-right: 4px;' src="img/logo.jpg" alt="Logo"><h1>pystada</h1>
-			<p>die webseite des python stammtisch darmstadt</p>
-		</div>
-	</div>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<p>Wir verstehen uns als lockere Gemeinschaft, die sich zum Austausch über Projekte, Probleme und Ideen alle zwei Wochen trifft. Mit Schwerpunkt auf der Programmiersprache <a href="https://www.python.org/">Python</a> diskutieren wir konkrete Software-Projekte als auch Themen des Programmierhandwerks wie Revisionskontrolle, Projektmanagement oder Debugging.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<h2>Nächste Treffen</h2>
-			</div>
-			<div class="col-md-6">
-<ul>
+<body onload="init();">
+  <div class="jumbotron" style="background-color: #000; color: #ffffff">
+    <div class="container">
+      <img alt="Logo" src="img/logo.jpg" style='float:left; height: 100px; width: 100; margin-right: 4px;'>
+
+      <h1>pystada</h1>
+
+      <p>die webseite des python stammtisch darmstadt</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p>Wir verstehen uns als lockere Gemeinschaft, die sich zum Austausch über Projekte, Probleme und Ideen alle
+        zwei Wochen trifft. Mit Schwerpunkt auf der Programmiersprache <a href="https://www.python.org/">Python</a>
+        diskutieren wir konkrete Software-Projekte als auch Themen des Programmierhandwerks wie Revisionskontrolle,
+        Projektmanagement oder Debugging.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Nächste Treffen</h2>
+      </div>
+
+      <div class="col-md-6">
+        <ul>
 <li id="current"><span>Mittwoch, 1. Juli 2015 um 19:00 Uhr (<a href="https://pads.ccc.de/pystada-2015-07-01">Agenda</a>)</span></li>
 <li><span style="color: #999999;">Mittwoch, 15. Juli 2015 um 19:00 Uhr <!--(<a href="https://pads.ccc.de/pystada-2015-07-15">Agenda</a>)--></span></li>
 <li><span style="color: #999999;">Mittwoch, 29. Juli 2015 um 19:00 Uhr <!--(<a href="https://pads.ccc.de/pystada-2015-07-29">Agenda</a>)--></span></li>
 </ul>
-				<address style="margin-left: 28px;">
-					<em><a href="http://cowo21.de">COWO 21</a></em><br />
-					Holzhofallee 21<br />
-					64295 Darmstadt
-				</address>
 
-				<p>Die Treffen finden alle 2 Wochen jeweils Mittwochs statt. Die Treffen sind öffentlich und eingeladen sind alle, die sich in irgendeiner Weise für Python interessieren.
-				Ankündigungen über neue Treffen werden vorher über die <a href="#mailinglist">Mailingliste</a> gemacht.</p>
+        <address style="margin-left: 28px;">
+          <em><a href="http://cowo21.de">COWO 21</a></em><br>
+          Holzhofallee 21<br>
+          64295 Darmstadt
+        </address>
 
-				<h2>Links &amp; Kontakt</h2>
-					<ul>
-					<li>Code: <a href="https://github.com/PyStaDa">PyStaDa @ GitHub</a></li>
-					<li>Twitter: <a href="https://twitter.com/PyStaDa">@PyStaDa</a></li>
-					<li>IRC: <a href="irc://irc.hackint.eu/pystada">#PyStaDa</a> auf <a href="http://hackint.org">Hackint</a></li>
-					<li id="mailinglist">Mailinglist: <a href="https://lists.chaos-darmstadt.de/mailman/listinfo/pystada">https://lists.chaos-darmstadt.de/mailman/listinfo/pystada</a></li>
-					<li>Kalender: <a href="/calendar.ics">calendar.ics</a></li>
-				</ul>
-			</div>
-			<div class="col-md-6">
-				<div class="pull-right" id="map" style="width:480px; height: 370px; border: 1px solid #888888;"></div>
-			</div>
-		</div>
-	</div>
+        <p>Die Treffen finden alle 2 Wochen jeweils Mittwochs statt. Die Treffen sind öffentlich und eingeladen sind
+        alle, die sich in irgendeiner Weise für Python interessieren. Ankündigungen über neue Treffen werden vorher
+        über die <a href="#mailinglist">Mailingliste</a> gemacht.</p>
 
-	<script src="js/jquery-2.1.0.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+        <h2>Sponsoren</h2>
+
+        <p>Der Python Stammtisch Darmstadt dankt seinen Sponsoren:</p>
+
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail" href="http://cowo21.de/"><img alt="COWO21-Logo" src=
+            "img/logo_neu-300x131.jpg"></a>
+          </div>
+
+          <p><strong>COWO21</strong></p>
+
+          <p>Der COWO21 ist ein Coworking Space in Darmstadt und bietet den PyStaDa-Treffen einen gemütlichen und
+          professionellen Rahmen.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail" href="http://www.oreilly.de/"><img alt="OReilly Webseite" src=
+            "img/oreilly.gif"></a>
+          </div>
+
+          <p><strong>O'Reilly Verlag</strong></p>
+
+          <p>Der O'Reilly Verlag verlegt einige sehr bekannte Bücher rund um Python und unterstützt tatkräftig die
+          Community.</p>
+        </div>
+
+        <h2>Links &amp; Kontakt</h2>
+
+        <ul>
+          <li>Code: <a href="https://github.com/PyStaDa">PyStaDa @ GitHub</a>
+          </li>
+
+          <li>Twitter: <a href="https://twitter.com/PyStaDa">@PyStaDa</a>
+          </li>
+
+          <li>IRC: <a href="irc://irc.hackint.eu/pystada">#PyStaDa</a> auf <a href="http://hackint.org">Hackint</a>
+          </li>
+
+          <li id="mailinglist">Mailinglist: <a href=
+          "https://lists.chaos-darmstadt.de/mailman/listinfo/pystada">https://lists.chaos-darmstadt.de/mailman/listinfo/pystada</a>
+          </li>
+
+          <li>Kalender: <a href="/calendar.ics">calendar.ics</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-6">
+        <div class="pull-right" id="map" style="width:480px; height: 370px; border: 1px solid #888888;"></div>
+      </div>
+    </div>
+  </div><script src="js/jquery-2.1.0.min.js"></script> <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
