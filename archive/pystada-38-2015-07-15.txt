@@ -1,0 +1,20 @@
+Python-Stammtisch
+Darmstadt
+
+Mittwoch, 15. Juli 2015
+CoWo21, Holzhofallee 21, Darmstadt
+
+Themen:
+ * amokleben kann sein Excel-Ersatz-Script vorstellen
+   * Berechnet mögliche Kombinationen von Teilen, zeigt Gesamtkosten an
+ * Neuerungen in Python 3.5
+   * https://docs.python.org/3.5/whatsnew/3.5.html
+   * 
+   * Python 3 in Science: the great migration has begun!
+     * http://astrofrog.github.io/blog/2015/05/09/2015-survey-results/
+   * subprocess.run() gefällt uns! 
+   * https://docs.python.org/3.5/library/subprocess.html#subprocess.run
+ * Die Battleship-Idee hat eine Anlaufstelle im gemeinsamen Repo bekommen: https://github.com/PyStaDa/Battleship
+ * In Zukunft anstatt pads.ccc.de nutzen wir lieber https://pads.darmstadt.ccc.de \o/
+   * Mit Möglichkeit hier hoffentlich per API und automatisch Pads erstellen lassen
+
