@@ -1,0 +1,33 @@
+
+PyStaDa Treffen #36 am 01.07.2015
+=====================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+ * Trage hier deine Wunschthemen ein
+ * Ich hab bisserl mit Docker gespielt und einen Python-Service (RESTful) zu dockerisieren hat z. B. 5 Minuten gedauert. Das hat mich schon erstaunt und das kann ich mal zeigen, wenn Interesse besteht. Davon abgesehen wär ich auch für gemeinsam coden. (Stefan, @suchkultur)
+ * Bin mal wieder für Coding - wir hatten gesagt, das wir wechseln wollen. Vielleicht kann man auch so mehr Leute motivieren zu kommen?
+
+ * Man könnte ja versuchen ein/zwei/drei Gruppen zu bilden, die sich mit einem Thema beschäftigen bei dem man sicher unterstützen kann.
+   * +1 (amokleben)
+   * Ich würde gerne was mit Multimedia / video / audio machen und würde mir ambulantplayer.org anschauen. Es gibt wohl die möglichkeit den über python anzusteuern,... 
+     * Andere Frameworks in dem Bereich interessieren mich auch - vielleicht hat jemand noch eine andere Idee. (Sven)
+   * Ich habe damit angefangen mit falcon web framework eine RESTful API für Battleship (Schiffe versenken) zu bauen. Wenn die Schnittstelle fertig ist, könnte man Web- Mobil und Desktop-Clients dafür bauen. (stefan)
+   * => http://de.battleship-game.org
+   * => https://bitbucket.org/santoni/battleship
+     * => umgezogen auf: https://github.com/PyStaDa/Battleship
+   * CalDAV/icalendar-Libs für Python
+     * icalendar - wird auch verwendet beim PyStada-calendar: https://github.com/PyStaDa/pystada-calendar/blob/master/calendar.py
+     * Business-Logik
+       * Expandieren: https://github.com/trevor/calendarserver/blob/master/twistedcaldav/instance.py#L129
+       * Expandieren: https://github.com/geier/khal/blob/master/khal/khalendar/aux.py
+       * Update: https://github.com/geier/khal/blob/master/khal/khalendar/backend.py#L259
+   * Ich brauche noch immer etwas um automatisch das Pad für die nächste Sitzung zu befüllen. (amokleben)
+     * Etherpad Lite 1.1+ hat eine API.
+     * pads.ccc.de nutzt leider Etherpad Non-Lite
+     * Pads wechseln?
+     * fsfe hat etherpad https://public.pad.fsfe.org/
+
+
