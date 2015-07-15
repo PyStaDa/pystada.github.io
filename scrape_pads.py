@@ -4,15 +4,25 @@ import requests
 
 from create_site import get_dates
 
+empty_pad_template = """Willkommen im Etherpad!
+
+Dieses Pad synchronisiert beim Tippen, daher werden alle Personen die gerade dieses Pad
+anschauen das selbe sehen. Dies erlaubt gemeinsam, gleichzeitig an einem Text zu arbeiten.
+
+"""
 
 def main():
     for date, meeting_number in get_dates():
-        url = "https://pads.ccc.de/ep/pad/export/pystada-{:%Y-%m-%d}/latest?format=txt".format(date)
+        url = "https://pads.darmstadt.ccc.de/p/pystada-{:%Y-%m-%d}/export/txt".format(date)
 
-        response = requests.get(url, verify=False)
+        response = requests.get(url, verify='cacert-root.crt')
 
         if response.status_code != 200:
             print("Everything failed (code: {}) for {}".format(response.status_code, url))
+            continue
+
+        if response.text == empty_pad_template:
+            print("Pad in {} is unused".format(url))
             continue
 
         with open("archive/pystada-{}-{:%Y-%m-%d}.txt".format(meeting_number, date), "w") as out:
