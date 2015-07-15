@@ -12,21 +12,24 @@ anschauen das selbe sehen. Dies erlaubt gemeinsam, gleichzeitig an einem Text zu
 """
 
 def main():
-    for date, meeting_number in get_dates():
-        url = "https://pads.darmstadt.ccc.de/p/pystada-{:%Y-%m-%d}/export/txt".format(date)
+    with requests.Session() as session:
+        session.verify = 'cacert-root.crt'
 
-        response = requests.get(url, verify='cacert-root.crt')
+        for date, meeting_number in get_dates():
+            url = "https://pads.darmstadt.ccc.de/p/pystada-{:%Y-%m-%d}/export/txt".format(date)
 
-        if response.status_code != 200:
-            print("Everything failed (code: {}) for {}".format(response.status_code, url))
-            continue
+            response = session.get(url)
 
-        if response.text == empty_pad_template:
-            print("Pad in {} is unused".format(url))
-            continue
+            if response.status_code != 200:
+                print("Everything failed (code: {}) for {}".format(response.status_code, url))
+                continue
 
-        with open("archive/pystada-{}-{:%Y-%m-%d}.txt".format(meeting_number, date), "w") as out:
-            out.write(response.text)
+            if response.text == empty_pad_template:
+                print("Pad in {} is unused".format(url))
+                continue
+
+            with open("archive/pystada-{}-{:%Y-%m-%d}.txt".format(meeting_number, date), "w") as out:
+                out.write(response.text)
 
 
 if __name__ == '__main__':
