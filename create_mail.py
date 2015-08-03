@@ -11,8 +11,8 @@ RECOMMENDED_MAILING_LISTS = [
 ]
 
 def main():
-    starting_date, meetings = get_next_date()
-    print("Nächster PyStaDa: #{1} am {0}".format(starting_date, meetings))
+    starting_date, issue = get_next_date()
+    print("Nächster PyStaDa: #{1} am {0}".format(starting_date, issue))
     print("Ankündigungen sollten wenn möglich nicht nur auf der PyStaDa-ML, sondern auch auf anderen relavanten MLs erscheinen, da wir ja auch potenzielle neue Mitglieder ansprechen wollen.")
     print("Auf folgenden Mailinglisten sind die Ankündigungen gut aufgehoben:")
     for (name, mail_address, website) in RECOMMENDED_MAILING_LISTS:

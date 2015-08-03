@@ -15,7 +15,7 @@ def main():
     with requests.Session() as session:
         session.verify = 'cacert-root.crt'
 
-        for date, meeting_number in get_dates():
+        for date, issue in get_dates():
             url = "https://pads.darmstadt.ccc.de/p/pystada-{:%Y-%m-%d}/export/txt".format(date)
 
             response = session.get(url)
@@ -28,7 +28,7 @@ def main():
                 print("Pad in {} is unused".format(url))
                 continue
 
-            with open("archive/pystada-{}-{:%Y-%m-%d}.txt".format(meeting_number, date), "w") as out:
+            with open("archive/pystada-{}-{:%Y-%m-%d}.txt".format(issue, date), "w") as out:
                 out.write(response.text)
 
 

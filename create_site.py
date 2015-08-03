@@ -28,8 +28,8 @@ def main():
         return line_template.format(date=date, month=date.strftime('%B'))
 
 
-    starting_date, meetings = get_next_date()
-    print("Nächster PyStaDa: #{1} am {0}".format(starting_date, meetings))
+    starting_date, issue = get_next_date()
+    print("Nächster PyStaDa: #{1} am {0}".format(starting_date, issue))
 
     list_template = '''\
 <ul>
@@ -58,14 +58,14 @@ def get_next_date():
 
 def get_dates():
     today = datetime.datetime.now()
-    meetings = 1
+    issue = 1
     starting_date = FIRST_DATE
     latest_date = today + DELTA
 
     while starting_date <= latest_date:
         if starting_date not in DATES_TO_SKIP:
-            yield (starting_date, meetings)
-            meetings += 1
+            yield (starting_date, issue)
+            issue += 1
 
         starting_date += DELTA
 
