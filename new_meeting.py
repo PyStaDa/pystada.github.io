@@ -44,9 +44,7 @@ def update_site():
 
         return line_template.format(date=date, month=date.strftime('%B'))
 
-
     starting_date, issue = get_next_date()
-    print("Nächster PyStaDa: #{1} am {0}".format(starting_date, issue))
 
     list_template = '''\
 <ul>
@@ -89,7 +87,6 @@ def get_dates():
 
 def create_mail():
     starting_date, issue = get_next_date()
-    print("Nächster PyStaDa: #{1} am {0}".format(starting_date, issue))
     print("Ankündigungen sollten wenn möglich nicht nur auf der PyStaDa-ML, sondern auch auf anderen relavanten MLs erscheinen, da wir ja auch potenzielle neue Mitglieder ansprechen wollen.")
     print("Auf folgenden Mailinglisten sind die Ankündigungen gut aufgehoben:")
     for (name, mail_address, website) in RECOMMENDED_MAILING_LISTS:
@@ -130,6 +127,9 @@ def archive_pads():
 
 
 if __name__ == '__main__':
+    starting_date, issue = get_next_date()
+    print("Nächster PyStaDa: #{1} am {0}".format(starting_date, issue))
+
     update_site()
     archive_pads()
     create_mail()
