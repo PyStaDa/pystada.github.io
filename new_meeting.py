@@ -101,6 +101,23 @@ def create_mail():
     print(mail_template.format(date=starting_date, month=starting_date.strftime('%B')))
 
 
+def show_pad_template():
+    date, issue = get_next_date()
+
+    print('\n' * 2)
+    print('''PyStaDa Treffen #{issue} am {date.day}.{date.month}.{date.year}
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+* Füll mich!
+'''.format(issue=issue, date=date, month=date.strftime('%B')))
+    print('\n' * 2)
+
+
 def archive_pads():
     if requests is None:
         print("Bitte 'requests' installieren um die Pads zu archivieren.")
@@ -132,5 +149,6 @@ if __name__ == '__main__':
 
     update_site()
     archive_pads()
+    show_pad_template()
     create_mail()
 
