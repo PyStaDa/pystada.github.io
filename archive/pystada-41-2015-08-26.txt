@@ -1,0 +1,48 @@
+*PyStaDa Treffen #41 am 26.8.2015
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+*Agenda
+
+	* Vorstellungsrunde
+		* Was ist euer momentanes Lieblingsmodul / Python-Feature?
+			* itertools - iterieren über Daten
+			* jinja2 - Templating Engine
+			* mod_python (von Apache)
+			* ipaddress - Arbeiten mit IP-Addressen und Netzwerken
+			* list comprehensions
+			* flask - minimales Web-Framework
+			* requests - für Anfragen ins Web
+	* Wie Doku aus Code erstellen
+		* sphinx
+			* sphinx-apidoc zur Dokumentation von API
+			* reStructured Text
+			* Quasi-Standard in der Python-Welt
+		* Diagramme erstellen: pyreverse
+			* Gibt es als Plugin für Sphinx
+	* O'Reilly Learning Paths: http://shop.oreilly.com/category/learning-path.do
+	* Python Testing Podcast
+		* Folge 1: What to expect: http://pythontesting.net/podcast/what-to-expect-from-the-python-test-podcast-pt001/
+		* Folge 2: Py.test vs. Unittest vs. Nose: http://pythontesting.net/podcast/pytest-vs-unittest-vs-nose-pt002/
+	* Testing in Python
+		* Was wie testen?
+			* pytest
+		* Selbstgehostetes CI?
+			* Jenkins
+			* Gitlab
+	* Intermedia Python: https://github.com/yasoob/intermediatePython
+	* Podcasts
+		* JavaScript Jabber: https://devchat.tv/js-jabber
+		* Ruby Rocks: https://devchat.tv/ruby-rogues/
+		* Talk Python To Me: http://talkpython.fm/
+		* Podcast.__init__: http://podcastinit.com
+			* Podcast.__init__ #20 über Static Site Generators: http://podcastinit.com/static-site-generators.html
+		* http://www.codenewbie.org/podcast
+		* Special Interest & Motivation: 50 Ironmans in 50 Staaten in 50 Tagen: http://www.richroll.com/podcast/iron-cowboy-2/
+		* Interessant "Schwarmdummheit": https://youtu.be/rc37ov1iVFQ
+	* cryptography 1.0 released: https://cryptography.io/en/latest/changelog/#id1
+	* IPython 4.0: http://blog.jupyter.org/2015/08/12/first-release-of-jupyter/
+	* F-Strings: https://www.python.org/dev/peps/pep-0498/
+		* Benchmark für String-Formatierung: https://gist.github.com/okin/84024e46fc041dd2df80
+	* Free Python GUI development course: http://pythontips.com/2015/08/25/free-python-gui-development-course/
+
