@@ -2,7 +2,7 @@ Hallo,
 
 kommende Woche treffen wir uns wieder zum Darmstädter Python Stammtisch.
 
-Am {date.day}. {month} um {date.hour}:{date.minute:02} Uhr geht es los, im COWO 21 in der Holzhofallee 21.
+Am {date.day}. {month} ab {date.hour}:{date.minute:02} Uhr geht es los, im COWO 21 in der Holzhofallee 21.
 Das Pad zur Planung ist zu finden unter https://pads.darmstadt.ccc.de/p/pystada-{date.year}-{date.month:02}-{date.day:02}
 
 Alle Interessenten sind hiermit herzlich eingeladen. Wir freuen uns auf euch!
