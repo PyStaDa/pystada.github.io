@@ -1,4 +1,4 @@
-*bhggh
+*
 PyStaDa Treffen #44 am 7.10.2015
 
 Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
