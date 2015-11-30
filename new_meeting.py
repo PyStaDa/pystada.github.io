@@ -11,7 +11,8 @@ except ImportError:
 SHOWN_DATES = 3
 FIRST_DATE = datetime.datetime(2014, 1, 29, 19)
 DELTA = datetime.timedelta(weeks=2)
-DATES_TO_SKIP = (datetime.datetime(2014, 12, 31, 19), )
+DATES_TO_SKIP = (datetime.datetime(2014, 12, 31, 19),
+                 datetime.datetime(2015, 12, 30, 19),)
 
 WANTED_LOCALE = 'de_DE.UTF-8'
 
