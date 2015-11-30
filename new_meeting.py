@@ -47,13 +47,20 @@ def update_site():
 
     starting_date, issue = get_next_date()
 
+    elements = []
+    i = 0
+    while len(elements) < SHOWN_DATES:
+        new_date = starting_date + (i * DELTA)
+        if new_date not in DATES_TO_SKIP:
+            elements.append(new_date)
+        i += 1
+
     list_template = '''\
 <ul>
 {elements}
 </ul>\
-'''.format(elements='\n'.join([format_date(starting_date + (i * DELTA),
-                                           hide_agenda_link=i)
-                               for i in range(SHOWN_DATES)]))
+'''.format(elements='\n'.join([format_date(date, hide_agenda_link=i)
+                               for i, date in enumerate(elements)]))
 
     with open('index.html.template') as template_file:
         site_template = ''.join(template_file.readlines())
