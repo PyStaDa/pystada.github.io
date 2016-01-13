@@ -1,0 +1,8 @@
+*PyStaDa Treffen #42 am 9.9.2015
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+*Agenda
+
+	* Anilist.co API: https://github.com/Tiefkuehlpizze/pyanilist
+

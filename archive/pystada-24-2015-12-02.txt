@@ -1,0 +1,26 @@
+PyStaDa Treffen #48 am 2.12.2015
+=================================
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+	* The first release candidate for Python 3.5.1 and Python 2.7.11rc1 released  is out now
+		* https://www.python.org/downloads/release/python-351rc1/
+	* Async programming in Python 3: https://community.nitrous.io/tutorials/asynchronous-programming-with-python-3
+	* Big list of naughty strings: https://github.com/minimaxir/big-list-of-naughty-strings
+	* https://www.python.org/dev/peps/pep-0508/
+		* This PEP specifies the language used to describe dependencies for packages.
+	
+Coden?
+
+Letzes Treffen oder gibts noch eines dieses Jahr?
+
+	* Python: a "toy" language? https://youtu.be/BWyDA5y6TIg
+		* Wieder David Beazly
+
+Nice Async Talk: https://www.youtube.com/watch?v=kdzL3r-yJZY
+
+An introduction to twisted: https://youtu.be/zVAon51dhIM
+
+
