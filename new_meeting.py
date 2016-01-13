@@ -10,7 +10,7 @@ except ImportError:
 
 SHOWN_DATES = 3
 FIRST_DATE = datetime.datetime(2014, 1, 29, 19)
-DELTA = datetime.timedelta(weeks=2)
+DELTA = datetime.timedelta(weeks=4)
 DATES_TO_SKIP = (datetime.datetime(2014, 12, 31, 19),
                  datetime.datetime(2015, 12, 30, 19),)
 
@@ -99,7 +99,7 @@ def create_mail():
     print("Auf folgenden Mailinglisten sind die Ankündigungen gut aufgehoben:")
     for (name, mail_address, website) in RECOMMENDED_MAILING_LISTS:
         print("{name}: {address} ({website})".format(name=name, address=mail_address, website=website))
-    
+
     print("\n\nMail-Inhalt folgt...")
     print("-" * 10)
 
