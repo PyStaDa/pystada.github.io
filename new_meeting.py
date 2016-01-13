@@ -9,7 +9,8 @@ except ImportError:
     requests = None
 
 SHOWN_DATES = 3
-FIRST_DATE = datetime.datetime(2014, 1, 29, 19)
+REAL_FIRST_DATE = datetime.datetime(2014, 1, 29, 19)
+FIRST_DATE = REAL_FIRST_DATE + datetime.timedelta(weeks=2)
 DELTA = datetime.timedelta(weeks=4)
 DATES_TO_SKIP = (datetime.datetime(2014, 12, 31, 19),
                  datetime.datetime(2015, 12, 30, 19),)
