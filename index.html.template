@@ -45,7 +45,7 @@
     <div class="row">
       <div class="col-md-12">
         <p>Wir verstehen uns als lockere Gemeinschaft, die sich zum Austausch über Projekte, Probleme und Ideen alle
-        zwei Wochen trifft. Mit Schwerpunkt auf der Programmiersprache <a href="https://www.python.org/">Python</a>
+        vier Wochen trifft. Mit Schwerpunkt auf der Programmiersprache <a href="https://www.python.org/">Python</a>
         diskutieren wir konkrete Software-Projekte als auch Themen des Programmierhandwerks wie Revisionskontrolle,
         Projektmanagement oder Debugging.</p>
       </div>
@@ -65,7 +65,7 @@
           64295 Darmstadt
         </address>
 
-        <p>Die Treffen finden alle 2 Wochen jeweils Mittwochs statt. Die Treffen sind öffentlich und eingeladen sind
+        <p>Die Treffen finden alle vier Wochen jeweils Mittwochs statt. Die Treffen sind öffentlich und eingeladen sind
         alle, die sich in irgendeiner Weise für Python interessieren. Ankündigungen über neue Treffen werden vorher
         über die <a href="#mailinglist">Mailingliste</a> gemacht.</p>
 
