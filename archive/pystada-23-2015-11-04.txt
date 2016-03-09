@@ -1,8 +1,0 @@
-*PyStaDa Treffen #46 am 4.11.2015
-
-Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
-
-*Agenda
-	* c0ding
-	* Destruktor mit coroutine realisiert
-	* http://pythonfasterway.cf
