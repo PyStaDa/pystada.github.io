@@ -1,0 +1,46 @@
+*PyStaDa Treffen #52 am 09.03.2016
+*
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+*Agenda
+
+	* Hilfreiche Hinweise zu pep8: http://pep8.org/
+	* "My code isn't working": Infografic welcher Fehlertyp woher kommen kann und was man dagegen machen kann: https://imgur.com/WRuJV6r
+	* How We Deploy Python Code
+		* A look at packaging Python code for deployment using Debian/Ubuntu’s built-in packaging system.
+			* https://nylas.com/blog/packaging-deploying-python
+	* Python for Live Music
+		* At Les Chemins de Traverse we explore ways of "augmenting" acoustical musical instruments with new possibilities offered by computers. For doing so, we need ultra-low latency real-time audio processing programs. Pretty much the typical situation where python should *not* be used, right? Wrong. We've recently included python (with a strong use of Olivier Bélanger's wonderful pyo module) in our set of tools for realizing the musical ideas we have in mind. This talk will expose why we came to consider python as a very interesting option for our realtime audio systems and how we use it on stage, with code and sound samples.
+			* http://www.matthieuamiguet.ch/blog/charming-snake-python-live-music
+	* Do Your Slides At The Last Minute: 8 Steps To Writing Your PyCon Talk - (Prep für den PyStaDa Talk :)
+		* https://emptysqua.re/blog/how-i-write-a-conference-talk/
+	* Python Mocking 101: Fake It Before You Make It
+		* Welcome to a guide to the basics of mocking in Python. It was borne out of my need to test some code that used a lot of network services and my experience with GoMock, which showed me how powerful mocking can be when done correctly
+			* https://blog.fugue.co/2016-02-11-python-mocking-101.html
+	* Neue Version von py.test - 2.9.0: http://pytest.org/latest/changelog.html
+	* Effect of the GIL on multithreaded Python: http://devopsreactions.tumblr.com/post/140680248273/the-effect-of-gil-on-multithreaded-python-programs
+
+
+*Events: 
+	* Python Testing Sprint - Freiburg, Germany -  testing sprint June 20th-26th 2016
+		* The pytest core group is heading towards the biggest sprint in its history, to take place in the black forest town Freiburg in Germany. The sprint will accelerate and enrich the release of pytest 3.0.
+		* (https://www.indiegogo.com/projects/python-testing-sprint-mid-2016 ) The page also mentions some preliminary topics:
+
+*Code Samples:
+
+*Ignore Exceptions:
+    
+@contextmanager
+def ignore(*exceptions):   
+    try:
+        yield    
+    except exceptions:        
+        pass    
+
+example:
+    with ignore(Exception):
+	    foo(bar)
+
+Archiv:
+https://github.com/PyStaDa/pystada.github.io/tree/master/archive
+

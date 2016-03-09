@@ -1,0 +1,30 @@
+*PyStaDa Treffen #51 am 10.02.2016
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+*Agenda:
+
+	* ptpython A better Python REPL https://github.com/jonathanslenders/ptpython/
+		* auch ganz nett: bpython https://github.com/bpython/bpython
+	* construct: binary parsing in python https://construct.readthedocs.org/en/latest
+	* Warehouse
+		* Nachfolger für PyPI (geplant)
+		* https://warehouse.python.org
+		* Code: https://github.com/pypa/warehouse
+		* http://pyfound.blogspot.de/2016/01/welcome-to-warehouse.html
+	* Walrus: Schöne Redis-DB-API: http://charlesleifer.com/blog/examples-of-using-walrus-a-lightweight-redis-toolkit/
+	* Java vs. Python
+		* Macht es Sinn bei einer Webapp von Java auf Python zu wechseln? https://www.reddit.com/r/Python/comments/420rli/webapp_switching_from_java_to_python_actually/
+		* Python vs. Java: Duck Typing, Parsing on Whitespace and Other Cool Differences: http://www.activestate.com/blog/2016/01/python-vs-java-duck-typing-parsing-whitespace-and-other-cool-differences
+	* asyncssh: Asynchronier SSH-Client
+		* Python 3.4+
+		* https://github.com/ronf/asyncssh
+	* eventlet.backdoor http://eventlet.net/doc/modules/backdoor.html
+	* Rückmeldung zu "Introduction to Python for Data Science"
+	* An open source Python JIT compiler... from Microsoft?
+		* Microsoft has introduced a new Python compiler called Pyjion, which plugs into the CPython runtime and boasts increased performance over CPython alone. Serdar Yegulalp details how Pyjion boosts Python speed. http://www.infoworld.com/article/3027562/application-development/microsoft-pyjion-boosts-python-speed.html
+	* MicroPython on the ESP8266: beautifully easy IoT
+		* https://www.kickstarter.com/projects/214379695/micropython-on-the-esp8266-beautifully-easy-iot
+	* Python Usergroup Kalender: hier noch nicht  https://www.python.org/events/python-user-group/ aber hier : https://calendar.google.com/calendar/embed?src=3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com&ctz=Europe/London
+	* https://github.com/FreeRADIUS/freeradius-server/blob/v3.1.x/src/modules/rlm_python/example.py
+	* https://docs.python.org/3/extending/embedding.html
