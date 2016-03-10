@@ -3,6 +3,8 @@
 
 import datetime
 import locale
+from itertools import chain
+
 try:
     import requests
 except ImportError:
@@ -10,7 +12,7 @@ except ImportError:
 
 SHOWN_DATES = 3
 REAL_FIRST_DATE = datetime.datetime(2014, 1, 29, 19)
-FIRST_DATE = REAL_FIRST_DATE + datetime.timedelta(weeks=2)
+FIRST_DATE = datetime.datetime(2016, 2, 10, 19)
 DELTA = datetime.timedelta(weeks=4)
 DATES_TO_SKIP = (datetime.datetime(2014, 12, 31, 19),
                  datetime.datetime(2015, 12, 30, 19),)
@@ -81,8 +83,31 @@ def get_next_date():
 
 
 def get_dates():
-    today = datetime.datetime.now()
+    for date, issue in chain(get_first_dates(), get_new_dates()):
+        yield date, issue
+
+
+def get_first_dates():
+    """
+    Get the dates of the meeting still with the two-week cycle.
+    """
     issue = 1
+    starting_date = REAL_FIRST_DATE
+    last_meeting_date = datetime.datetime(2016, 1, 14, 19, 0)
+    two_weeks = datetime.timedelta(weeks=2)
+
+    while starting_date <= last_meeting_date:
+        if starting_date not in DATES_TO_SKIP:
+            yield (starting_date, issue)
+            issue += 1
+
+        starting_date += two_weeks
+
+
+def get_new_dates():
+    "The dates sinces Christian and Sven took over running PyStaDa."
+    today = datetime.datetime.now()
+    issue = 51
     starting_date = FIRST_DATE
     latest_date = today + DELTA
 

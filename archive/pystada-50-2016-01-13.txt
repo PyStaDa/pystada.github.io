@@ -1,0 +1,55 @@
+*PyStaDa Treffen #50 am 13.1.2016
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+*Agenda
+	* PyStaDa
+		* Neuigkeiten zur Orga: Sven & redhood machen Orga
+		* Frequenz: alle 4 Wochen
+	* Themen für kommende Treffen?
+	* Was interessiert Euch?
+		* Python für Mikrocontroller?
+			* Micropython hat @suchkultur schonmal präsentiert
+			* Micropython für ESP8266: https://github.com/micropython/micropython/tree/master/esp8266
+		* Daten Filtern, verarbeiten und visualisieren?
+			* https://www.edx.org/course/introduction-python-data-science-microsoft-dat208x
+		* Bearbeitung von Texten -> Analyse auf Korrektheit (Schreibfehler und Semantisch Sinnvoll) und Verbesserung
+		* Generatoren / asyncio
+			* Processing Pipeline
+		* Testing
+			* Testautomation
+			* Generische Mocks
+			* py.test
+				* Fixtures
+		* Junos and Network Automation
+			* http://forums.juniper.net/t5/Automation/Scripting-How-To-Unit-test-a-Juniper-PyEZ-project-with-pytest/ta-p/285549
+		* Webentwicklung
+			* Django
+			* Eve
+
+	* Wer kennt Firmen, andere Personen im Rhein Main Gebiet, die man ansprechen kann?
+		* ESA
+		* Innovationsbereich der Telekom (gic fragt)
+		* https://max21.softgarden.io/job/257770/Entwickler-Python-%28m-w%29?jobDbPVId=946066
+
+	* Wie oft treffen und Abstimmungen mit Python Rhein Main (https://twitter.com/PyUGRM ) / Frankfurt ()?
+		* Keine weitere Abstimmung, da keine Konflikte
+	* Wir sind noch nicht im UG Kalender der PyCon: http://www.pycon.org
+		* Zur Aufnahme: https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event
+
+	* Inhalte: 
+	* Interessante Hintergründe:
+		* Why python3  http://www.snarky.ca/why-python-3-exists
+		* Why print became a function in python3 http://www.snarky.ca/why-print-became-a-function-in-python-3
+	* freier Vortrag/ein paar Worte zu Unicode generell und in Python; teilweise mit Focus auf ICU (pyicu)
+	* https://pypi.python.org/pypi/natsort
+	* Erfahrungen mit type hints in Python 3.5: https://www.reddit.com/r/Python/comments/40lsl2/has_anyone_started_to_use_type_hinting_yet_hows/
+		* https://docs.python.org/3/library/typing.html
+	* warum hat Python kein immutable dict: https://www.python.org/dev/peps/pep-0416
+		* Read-only-proxy: https://docs.python.org/3/library/types.html#types.MappingProxyType
+		* andere immutable-wrapper/views?
+
+*PYTHONCAMP COLOGNE 02.04.2016 - 03.04.2016
+KOSTENLOSE TEILNAHME - ANMELDUNG ERFORDERLICH - https://www.barcamptools.eu/pycamp201604
+ Am Freitag öffnen wir unsere Anmeldung für Teilnehmer - kostenlos!!! (https://twitter.com/pythoncamp)
+ 
