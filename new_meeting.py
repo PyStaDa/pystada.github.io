@@ -89,7 +89,7 @@ def get_dates():
 
 def get_first_dates():
     """
-    Get the dates of the meeting stil with the two-week cyclus.
+    Get the dates of the meeting still with the two-week cycle.
     """
     issue = 1
     starting_date = REAL_FIRST_DATE
