@@ -158,7 +158,6 @@ def archive_pads():
         return
 
     with requests.Session() as session:
-        session.verify = 'cacert-root.crt'
 
         for date, issue in get_dates():
             url = "https://pads.darmstadt.ccc.de/p/pystada-{:%Y-%m-%d}/export/txt".format(date)
