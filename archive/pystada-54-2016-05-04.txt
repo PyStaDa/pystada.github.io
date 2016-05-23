@@ -1,0 +1,17 @@
+*PyStaDa Treffen #54 am 4.5.2016
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+*Agenda
+	* cloud-init
+		* Beispiel: https://github.com/synnefy/foreman-cloud-init
+	* scapy (eigene Protokolle, warum besser nicht scapy nehmen...)
+	* Verbesserungs-Projekte für Python 3.6: https://faster-cpython.readthedocs.org/cpython36.html
+	* How to loop with indexes in Python: https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/
+	* Parallel Processing in Python
+		* https://homes.cs.washington.edu/~jmschr/lectures/Parallel_Processing_in_Python.html
+		* Langer Artikel, am besten in Ruhe lesen
+	* Automatisiertes Testen von League of Legends:https://engineering.riotgames.com/news/automated-testing-league-legends
+	* uvloop: Alternative IO-Loop für asyncio auf Basis von libuv: http://magic.io/blog/uvloop-blazing-fast-python-networking/
+	* Elegantes Arbeiten mit stdin: https://docs.python.org/3.5/library/fileinput.html
+

@@ -1,0 +1,37 @@
+PyStaDa Treffen #53 am 06.04.2016
+*
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+*Agenda * Füll mich!
+
+	* Messy datasets? Missing values? missingno provides a flexible and easy-to-use missing data matrix (nullity matrix?) visualization that allows you to get a quick visual summary of the completeness (or lack thereof) of your dataset. It's built using matplotlib, so it's fast, and takes any DataFrame input that you throw at it, so it's flexible. Just pip install missingno to get started.
+		https://github.com/ResidentMario/missingno
+
+	* Why the need for virtual environments?
+		* https://realpython.com/blog/python/python-virtual-environments-a-primer/
+		* 
+	* Popular Airline Passenger Routes
+		* http://tech.marksblogg.com/popular-airline-passenger-routes.html
+		* http://tech.marksblogg.com/better-python-package-management.html
+		* http://tech.marksblogg.com/better-python-package-management.html
+	* 
+	* A Security Framework for Python ApplicationsProject web site: http://yosaiproject.github.io/yosaiWhat is Yosai
+		* Yosai is a "security framework" that features authentication, authorization, and session management from a common, intuitive API.
+			* http://yosaiproject.github.io/yosai/
+	
+	Videos PyData Amsterdam 2016: 
+		https://www.youtube.com/playlist?list=PLGVZCDnMOq0rzDLHi5WxWmN5vueHU5Ar7
+	Danach: 
+			* PyData Madrid  April 8, 2016
+	
+
+*Events: 
+	    Köln? war einer vor Ort?
+		https://www.barcamptools.eu/pycamp201604/sessions
+		
+
+
+
+Archiv:
+https://github.com/PyStaDa/pystada.github.io/tree/master/archive
+
