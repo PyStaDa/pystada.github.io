@@ -1,0 +1,15 @@
+PyStaDa Treffen #55 am 1.6.2016
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+* Füll mich!
+* Python Clock:http://pythonclock.org ????⌚
+* Python Code Quality Authority: https://github.com/PyC
+  * Sammelbecken für Tools zum Code-Check (flake8, pylint, 
+	* Integration in vim: https://github.com/klen/python-mode
+
+* Veränderungen.... 

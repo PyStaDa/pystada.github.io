@@ -1,0 +1,14 @@
+PyStaDa Treffen #57 am 27.7.2016
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+	* Blog-Software in python: https://www.getlektor.com/
+	* CLI mit Decorators: http://click.pocoo.org/5/
+	* Podcasts:
+		* https://talkpython.fm/
+		* http://podcastinit.com/
+
