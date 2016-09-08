@@ -1,0 +1,26 @@
+PyStaDa Treffen #58 am 24.8.2016
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+Diskussion Multiprocessing / Multitreading.... 
+	aktuell einfacher - elegante per Multiproceessing.... 
+
+http://microbit-micropython.readthedocs.io/en/latest/tutorials/hello.html
+
+https://github.com/TheAlgorithms/Python
+
+http://connexion.readthedocs.io/en/latest/quickstart.html
+
+https://www.computerwerk.org/index.php?id=ueber-uns
+
+Validieren von JSON Strukturen / Antworten von REST-Interfacen,...
+http://json-schema.org/
+https://pypi.python.org/pypi/jsonschema
+https://spacetelescope.github.io/understanding-json-schema/
+https://spacetelescope.github.io/understanding-json-schema/reference/type.html
+
+Projekt: 

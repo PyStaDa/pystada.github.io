@@ -1,0 +1,37 @@
+PyStaDa Treffen #57 am 27.7.2016
+=================================
+
+Visit: http://pystada.github.io or join #PyStaHackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+	* Regex-Engine von google: https://github.com/facebook/pyre2/
+	* Config in Python
+		* Kombination von files und commandline
+		* Konfig als Singleton: Modul in python? (Reihenfolge import, wie initialisieren?)
+		* Konfig-Factory (ordentlich initialisierbar)
+		* wie config-Objekt an Funktionen weiter reichen: **kwargs bricht, wenn unbekannte vorkommen
+			* Kann man vermutlich über Anpassung der Signatur der Methode doch lauffähig bekommen -Niko
+		* injection bzw config-pfad an args binden? gibt es schoenes framework?
+	* Easy, clean, reliable Python 2/3 compatibility: http://python-future.org/
+		* Useful python3 features for users: http://python-3-for-scientists.readthedocs.io/en/latest/python3_user_features.html
+	* urlparse4 - Faster replacement for Python's urlparse module: https://github.com/commonsearch/urlparse4
+		* Python 2.7 only
+	* How to Optimize Images for Page Load Speed in Django: https://worthwhile.com/blog/2016/07/11/django-page-load-speed/
+	* http://blog.jupyter.org/2016/07/14/jupyter-lab-alpha/
+	* Europython videos kommen nach und nach online... 
+		* https://www.youtube.com/user/PythonItalia
+	* PyCon DE 2016
+		* http://www.pymunich.com/
+	* EuroSciPy Conference in Erlangen
+		* https://conference.scipy.org/
+	* Py Unconf HH
+		* http://www.pyunconf.de/programm/
+	* PyCon SG - Singapore 2016 Videos 
+		* https://www.youtube.com/playlist?list=PLECEw2eFfW7iTsIrldRO2b6NLEuRQYD2L 
+	* MicroPython 1.8.2
+		* Add Bluetooth Low Energy (BLE) capabilities to MicroPython
+			* https://github.com/bbcmicrobit/micropython/issues/71
+	* Jugend Hackt: https://jugendhackt.org/
+
