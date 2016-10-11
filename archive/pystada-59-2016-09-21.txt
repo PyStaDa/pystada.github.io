@@ -1,0 +1,29 @@
+PyStaDa Treffen #59 am 21.9.2016
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+Python 3.6 "dict" becomes orderd by default: https://mail.python.org/pipermail/python-dev/2016-September/146327.html
+
+20 Python Libraries You Aren't Using (But Should)
+	http://www.oreilly.com/programming/free/20-python-libraries-you-arent-using-but-should.csp
+
+Conferences:
+	* PyCon UK Cardiff, from Thursday 15th to Monday 19th September 2016 
+		* http://2016.pyconuk.org/programme/
+	* 29-30 October: conference PyMunich representing PYCON.DE 2016 
+		* https://www.pymunich.com/
+
+REST-Apis mit Python
+	* Flask-Restless/Flask-Restful
+		* Erfahrung mit Erweiterung der Endpunkte über Objektmodel hinaus?
+	* Django-Rest-Framework
+	* Neuer Standard: http://jsonapi.org/
+	* Best-Practice: Modell-basiert vs eigene API?
+
+https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/
+
+https://access.redhat.com/blogs/766093/posts/2592591
