@@ -1,0 +1,25 @@
+PyStaDa Treffen #60 am 19.10.2016
+=================================
+
+	* Vergleiche in python mit unterschiedlichen Typen bzw Hierachien
+		* https://docs.python.org/3.7/reference/expressions.html#value-comparisons
+		* https://docs.python.org/3.7/reference/datamodel.html#basic-customization
+		* mal Beispiele machen und testen
+
+	* https://www.postgresql.org/docs/9.6/static/functions-net.html
+	* Stored Procedures in postgresql in python:  https://www.postgresql.org/docs/9.6/static/plpython.html
+
+
+	* http://pyyaml.org/wiki/PyYAML
+
+	* Statische Site-Generatoren
+		* https://getnikola.com/
+		* https://www.getlektor.com/blog/
+
+	* Standardisierte REST-API:
+		http://jsonapi.org/implementations/#server-libraries-python
+		
+	* REST-API ohne Modell (Haskell):
+		* https://github.com/begriffs/postgrest
+	* interessanter Programming-Blog:
+		* http://blog.burntsushi.net/
