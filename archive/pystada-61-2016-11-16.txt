@@ -1,0 +1,32 @@
+0PyStaDa Treffen #61 am 16.11.2016
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+	* Packetierung für Unix und Windows
+	* Anaconda
+
+	* https://www.pythonsheets.com/
+
+	* http://grodola.blogspot.com/2016/11/psutil-500-is-around-twice-as-fast.html#
+	* http://pycon.blogspot.de/2016/11/registration-is-open-for-pycon-2017.html
+	* Automate Your Browser: A Guided Selenium Adventure
+		* https://datarebellion.com/blog/selenium-bls/
+	* A look at Date and TIme manipulation and comparing two popular Python libraries for dealing with Date and Time. 
+		* https://3-screens.com/2016/date-time-manipulation/
+		* http://infiniteundo.com/post/25509354022/more-falsehoods-programmers-believe-about-time
+
+	* https://engineering.mongodb.com/post/the-saga-of-concurrent-dns-in-python-and-the-defeat-of-the-wicked-mutex-troll/
+	* http://www.dougalmatthews.com/2016/Nov/12/create-an-excellent-python-dev-env/
+
+http://people.cs.umass.edu/~yanlei/courses/CS691LL-f06/papers/SH05.pdf
+
+Jeff Knupp Python Videos
+Writing Idiomatic Python Video Five: 
+	https://www.youtube.com/watch?v=2P4Exogr4FI
+	
+Videos PyCon.de Munich 2016:
+	https://cast.itunes.uni-muenchen.de/vod/playlists/fBDyBElc8P.html

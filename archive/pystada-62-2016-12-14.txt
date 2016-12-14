@@ -1,0 +1,14 @@
+PyStaDa Treffen #62 am 14.12.2016
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+	* Packaging
+		* zipapp
+		* pex
+	* flask-restless
+	* Dein Thema...
+
