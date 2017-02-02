@@ -10,5 +10,8 @@ Agenda
 		* zipapp
 		* pex
 	* flask-restless
-	* Dein Thema...
-
+	* https://github.com/mitsuhiko/pipsi
+	* https://software.intel.com/en-us/intel-distribution-for-python
+	* http://numba.pydata.org/
+	* https://pypi.python.org/pypi/natsort
+	* http://seriot.ch/parsing_json.html

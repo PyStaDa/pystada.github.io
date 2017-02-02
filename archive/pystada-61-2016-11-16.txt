@@ -1,4 +1,4 @@
-0PyStaDa Treffen #61 am 16.11.2016
+PyStaDa Treffen #61 am 16.11.2016
 =================================
 
 Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
