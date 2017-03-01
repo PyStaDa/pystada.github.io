@@ -1,0 +1,46 @@
+PyStaDa Treffen #62 am 2017-02-08
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+Python 3.6 is officially released 
+	https://docs.python.org/3.6/whatsnew/3.6.html
+
+Jinja 2.9 Released by Armin Ronacher
+	https://www.palletsprojects.com/blog/jinja-29-released/
+
+Maya: Datetime for Humans™ https://github.com/kennethreitz/maya
+
+This is not a Python beginner guide and you should have an intermediate level in Python and ideally a beginner level in numpy. 
+http://www.labri.fr/perso/nrougier/from-python-to-numpy/
+
+Intel Python Distribution: https://software.intel.com/en-us/intel-distribution-for-python
+
+Putting the science back in data science       
+Best practices and scalable workflows for reproducible data science.
+	https://www.oreilly.com/ideas/putting-the-science-back-in-data-science
+Do you use Jupyter Notebook? Tell O'Reilly about your experiences in this survey, and get a free Python ebook. http://www.oreilly.com/pub/cpc/49884
+
+Python requests deep dive https://medium.com/@anthonypjshaw/python-requests-deep-dive-a0a5c5c1e093#.8to0qepfs
+I just finished replacing httplib in a very large project, Apache Libcloud.
+
+https://lwn.net/Articles/531114/
+
+Infos / Talks: https://www.python-fosdem.org/
+
+DIY Docker: https://github.com/red-hood/docker-meetup/blob/master/doc/tutorial.md
+
+Advanced Time Series Plots in Python
+	http://www.blackarbs.com/blog/advanced-time-series-plots-in-python/1/6/2017
+	http://seaborn.pydata.org/
+
+Next conference: 
+    PyConWEB, 27-28 May 2017, MunichDear friends,
+We are very excited to announce our next event: PyConWEB 2017
+
+#pydatabln 2017 conference is in July,  call for proposals is OPEN NOW at http://pydata.org/berlin2017
+
+PythonCamp Cologne 08.04.2017 - 09.04.2017 Kostenlose Teilnahme (Registrierung noch nicht möglich)
