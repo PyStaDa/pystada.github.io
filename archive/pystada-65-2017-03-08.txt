@@ -1,0 +1,33 @@
+PyStaDa Treffen #65 am 8.3.2017
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+	* Older.... CPython is coming to GitHub
+		* Mailing list announcment: https://mail.python.org/pipermail/python-dev/2017-February/147341.html
+		* Reddit discussion https://www.reddit.com/r/Python/comments/5ssx9w/cpython_moves_to_github_this_friday/
+	* Asynchronous HTTP Requests in Python
+		* http://terriblecode.com/post/using_aiohttp/
+	* Using functional programming in Python like a boss: Generators, Iterators and Decorators
+		* http://nbviewer.jupyter.org/github/akittas/presentations/blob/master/pythess/func_py/func_py.ipynb
+	* It's metaclasses all the way down:Understanding and using Python's metaprogramming facilities
+		* https://nbviewer.jupyter.org/github/akittas/presentations/blob/master/pythess/meta_alltheway/meta_alltheway.ipynb
+	* Tiny Python 3.6 Notebook - Matt Harrison
+		* README : https://github.com/mattharrison/Tiny-Python-3.6-Notebook/blob/master/README.md
+		* Full Book on GitHub : https://github.com/mattharrison/Tiny-Python-3.6-Notebook/blob/master/python.rst
+	* Goes beyond PEP8 to discuss what makes Python code feel great. A Strunk & White for Python. 
+		* https://github.com/amontalenti/elements-of-python-style
+	* From beginner to pro: Python books, videos and resources
+		* http://pybit.es/python-resources.html
+	* mongoaudit is a CLI tool for auditing MongoDB servers, detecting poor security settings and performing automated penetration testing.
+		*  https://github.com/stampery/mongoaudit
+	* google / python-fire
+		* Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+			* https://github.com/google/python-fire
+	* 'Suds' is a lightweight SOAP-based web service client for Python licensed under LGPL (see the LICENSE.txt file included in the distribution).
+		* https://pypi.python.org/pypi/suds-jurko/0.6
+
+
