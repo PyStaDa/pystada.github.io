@@ -1,0 +1,90 @@
+
+PyStaDa Treffen #66 am 5.4.2017
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+	* Python ist gefährlich: http://www.faz.net/agenturmeldungen/dpa/riesige-python-verschlingt-erntearbeiter-14947869.html
+	* Interning von Integern:
+		* http://www.laurentluce.com/posts/python-integer-objects-implementation/
+			In [85]: 2**8 is 2**8
+			Out[85]: True
+			In [86]: 2**9 is 2**9
+			Out[86]: False
+			In [58]: 512 is 512
+			Out[58]: True
+			In [59]: 512 is int(512)
+			Out[59]: True
+			In [66]: id(512)
+			Out[66]: 140670672883184
+			In [67]: id(512)
+			Out[67]: 140670672880272
+			In [68]: print(id(512), id(512))
+			140670672880272 140670672880272
+			In [72]: print(id(2**9), id(2**9))
+			140670672882640 140670672882672
+			In [69]: id(23)
+			Out[69]: 140670782155840
+			In [70]: id(23)
+			Out[70]: 140670782155840
+	* Type hints
+	* List Comprehensions and Generator Expressions
+		* http://djangostars.com/blog/list-comprehensions-and-generator-expressions/
+		* http://xahlee.info/comp/list_comprehension.html
+		* (x for y in y_list
+		*     for x in y)
+	* Analyzing 4 Million Yelp Reviews with Python on AWS 
+		* Yelp runs a data challenge every year in which it invites people to explore its real-world datasets for unique insights. In this post, we’ll cover show how to load the dataset into a Jupyter Notebook running on a powerful but cheap AWS spot instance, and produce some initial explorations and visualizations.
+			http://www.developintelligence.com/blog/2017/02/analyzing-4-million-yelp-reviews-python-aws-ec2-instance/
+	* Modern Django: A Guide on How to Deploy Django-based Web Applications in 2017
+		* https://github.com/djstein/modern-django
+	* Preventing SQL injections in Python (and other vulnerabilities)
+		* As you increase complexity in your applications, it can be easy to inadvertently introduce potential problems and vulnerabilities. In this article, I will highlight the easiest to miss that can cause the biggest problems, how to avoid them and tools and services that help you save time doing so.
+			* https://blog.sqreen.io/preventing-sql-injections-in-python/
+			* better: http://docs.sqlalchemy.org/en/latest/core/sqlelement.html
+			* Andere Optionen Prepared Statements, wenn es die DB erlaubt.
+	* A set of tools for extracting tables from PDF files helping to do data mining on (OCR-processed) scanned documents.
+		* https://github.com/WZBSocialScienceCenter/pdftabextract
+		* https://github.com/WZBSocialScienceCenter/pdftabextract/blob/master/examples/catalogue_30s/catalog_30s_notebook.ipynb
+	* IPython and Jupyter 80Notebook
+		* For learners as well as for more advanced data scientists, the Jupyter Notebook is one of the popular data science tools out there: the interactive environment is not only ideal to teach and learn, and to share your work with peers, but also ensures reproducible research. 
+			* https://www.datacamp.com/community/blog/ipython-jupyter
+	* Forecasting Website Traffic Using Facebook’s Prophet Library
+		* A common business analytics task is trying to forecast the future based on known historical data. Forecasting is a complicated topic and relies on an analyst knowing the ins and outs of the domain as well as knowledge of relatively complex mathematical theories. Because the mathematical concepts can be complex, a lot of business forecasting approaches are “solved” with a little linear regression and “intuition.” More complex models would yield better results but are too difficult to implement.
+			* http://pbpython.com/prophet-overview.html
+	* knitpy: Elegant, flexible and fast dynamic report generation with python
+		* This is a port of knitr (http://yihui.name/knitr/) and rmarkdown (http://rmarkdown.rstudio.com/) to python. To start with, you can run the example overview document. To convert to all defined output formats, run knitpy --to="all" -- examples\knitpy_overview.pymd. This will produce a html, docx and pdf output (if you have pdflatex in path). You can view a markdown rendered and a html rendered version of this file. It's not yet as pretty as the knitr version...
+			* https://github.com/janschulz/knitpy
+	* Getting Started with Mocking in Python. 
+		* An introduction to using Python's unittest.mock for replacing parts of your system under test and improving the efficiency of your unit tests.
+			* https://semaphoreci.com/community/tutorials/getting-started-with-mocking-in-python
+	* https://github.com/janschulz/pypandoc
+	* WZB Data Science Blog
+		* https://datascience.blog.wzb.eu/category/linkdump/
+	
+	* Any sane/intuitive and way to distinguish between str and an actual collection (python2/3 compatible)?
+	>>> isinstance("", collections.abc.Collection)
+	True
+	
+	https://hackernoon.com/yes-python-is-slow-and-i-dont-care-13763980b5a1
+	
+"Esoteric" Drop Sort
+	http://ibiwan.com/programming/allsorts/in_python/dropsort.py
+	http://micsymposium.org/mics_2011_proceedings/mics2011_submission_13.pdf
+	
+https://github.com/GIC-de/PyANCP
+
+	* videos/conf:
+		*  #EuroPython  early bird ticket sales will start ---- TOMORROW April 4th at 10:00 CEST --
+			* https://ep2017.europython.eu/en/registration/buy-tickets/
+		* http://de.pycon.org/index.html#about
+			* 25-27 Okt.2017 ZKM PyCon.DE 2017 Karlsruhe
+		* https://2017.djangocon.eu/    Gerade.... Videos
+			https://www.youtube.com/user/djangoconeurope
+
+
+
+
+
