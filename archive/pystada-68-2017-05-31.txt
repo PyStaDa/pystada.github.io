@@ -1,0 +1,79 @@
+PyStaDa Treffen #68 am 31.5.2017
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+Älter aber jetzt erst gefunden: Vor einiger Zeit habe ich nachgedacht wie es denn geht und hinterher mit if, elif,... gearbeitet
+	https://www.pydanny.com/why-doesnt-python-have-switch-case.html
+	
+Interning von bytes
+	b'' scheint interned, alle anderen nicht? (fuer py3, py2 macht interning auch fuer bytes mit werten, wie bei strings)
+
+GitHub - jsvine/pdfplumber: Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.
+	https://github.com/jsvine/pdfplumber
+	https://www.binpress.com/tutorial/manipulating-pdfs-with-python/167
+	https://www.aldeid.com/wiki/Pdf-parser
+
+Neues Testing Buch: 
+	https://pragprog.com/book/bopytest/python-testing-with-pytest
+
+Rust + Python
+	https://github.com/dgrunwald/rust-cpython
+	https://github.com/PyO3/tokio
+	
+Specifying Minimum Build System Requirements for Python Projects     
+	https://www.python.org/dev/peps/pep-0518/
+
+Parsec for Python (not as good as haskell's)
+	https://pythonhosted.org/parsec/documentation.html
+
+Scala combinator library for working with binary data
+	https://github.com/scodec/scodec
+
+Parsing made fun:
+	https://construct.readthedocs.io/en/latest/
+
+Alternativer JIT-Compiler
+	http://numba.pydata.org/
+
+PyCon 2017 Videos are Up
+	Videos of the just concluded Pycon US 2017
+	https://www.youtube.com/channel/UCrJhliKNQ8g0qoE_zvL8eVg
+	
+Mehrere Random-Generatoren:
+import importlib.util
+import sys
+
+# For illustrative purposes.
+name = 'random'
+
+spec = importlib.util.find_spec(name)
+if spec is None:
+    print("can't find the itertools module")
+else:
+    # If you chose to perform the actual import ...
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    # Adding the module to sys.modules is optional.
+    sys.modules['foo'] = module
+
+import random
+import foo
+
+random.seed(23)
+foo.seed(23)
+
+print(random.random())
+print(random.random())
+print(foo.random())
+print(foo.random())
+
+
+Ok, habe mir nochmal den Pseudozufallszahlengenerator "random" angesehen, und er scheint nicht
+für Kryptographie verwendbar zu sein - das wäre er nur mit dem "system random number generator" -
+und der liefert von Natur aus nichts reproduzierbares.. zumindest ist mir nichts bekannt.
+	https://docs.python.org/3/library/random.html
+	

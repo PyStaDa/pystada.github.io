@@ -1,0 +1,39 @@
+PyStaDa Treffen #69 am 28.6.2017
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+* persistent hashing?
+* does pickle always generate the same bytestream for the same objects? what about references?
+* type hints in slots?
+* constant iterators, idioms?
+* virtualenv in stdlib: https://docs.python.org/3/library/venv.html
+
+
+snaek Support for building Python to Rust Bridges. https://github.com/mitsuhiko/snaek
+
+https://doughellmann.com/blog/2017/06/12/thank-you-for-10-years-of-python-module-of-the-week/
+
+http://testdriven.io/part-one-intro/
+
+https://speakerdeck.com/pycon2017
+
+https://github.com/tomchristie/apistar
+
+
+https://www.kickstarter.com/projects/1124925856/the-new-and-improved-flask-mega-tutorial
+
+
+conf: 
+	August 13, 2017 https://2017.djangocon.us/schedule/ check für videos nach der Conference
+	Hobbyist Early Bird ... https://de.pycon.org/index.html#tickets
+
+
+
+Ankündigungen sollten wenn möglich nicht nur auf der PyStaDa-ML, sondern auch auf anderen relavanten MLs erscheinen, da wir ja auch potenzielle neue Mitglieder ansprechen wollen.
+Auf folgenden Mailinglisten sind die Ankündigungen gut aufgehoben:
+Chaos Darmstadt: hackspace@lists.metarheinmain.de (https://lists.metarheinmain.de/mailman/listinfo/d armstadt)
+Python-DE: python-de@python.org (http://mail.python.org/mailman/listinfo/python-de)
