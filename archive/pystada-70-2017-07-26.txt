@@ -1,0 +1,85 @@
+PyStaDa Treffen #70 am 26.7.2017
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+Problems and Solutions are different at different scales
+    You are not Google https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb
+    Enough with microservices https://aadrake.com/posts/2017-05-20-enough-with-the-microservices.html
+
+Microservices:
+	Do you have big, monolith web applications or services that are hard to manage, hard to change, and hard to scale? Maybe breaking them into microservices would give you many more options to evolve and grow that app.
+	
+	This week, we meet up again with Miguel Grinberg to discuss the trades offs and advantages of microservices. 
+		https://talkpython.fm/episodes/show/121/microservices-in-python
+	
+	Europython Talk Microservices with Python and Flask by Miguel Grinberg
+		https://speakerdeck.com/miguelgrinberg/microservices-with-python-and-flask-1
+
+Checklist for 
+ Python libraries APIs
+	http://python.apichecklist.com/
+
+News, announcements and commentary from Zappa, Python's server-less framework.            
+	https://blog.zappa.io/
+
+
+Neues - anderes Modul als faker "https://github.com/joke2k/faker/" für Fake - Mockdaten
+
+Mimesis is a fast and easy to use library for Python, which helps generate mock data for a variety of purposes. This data can be particularly useful during software development and testing. https://github.com/lk-geimfari/mimesis/
+        Part 1: https://medium.com/wemake-services/generating-mock-data-using-elizabeth-part-i-ca5a55b8027c 
+        Part 2: https://medium.com/wemake-services/generating-mock-data-with-elizabeth-part-ii-bb16a3f3106f 
+        pytest plugin: https://github.com/lk-geimfari/pytest-elizabeth
+	
+	
+Hypothesis Testing
+		* Unleash the Test Army http://wordaligned.org/articles/unleash-the-test-army
+		* Episode #67 on hypothesis - Talk Python To Me Podcast
+	
+
+Tinymongo for simple stuff: First starter for mongo in small projects?
+	https://github.com/schapman1974/tinymongo
+	A simple wrapper to make a drop in replacement for mongodb out of tinydb. 
+	This module is an attempt to add an interface familiar to those currently using pymongo.
+
+A dead simple Python data validation library
+	https://github.com/shopnilsazal/validus
+	validus.isemail('someone@example.com')
+
+Changelogs
+	 What is a changelog - what to put and not....
+			* http://keepachangelog.com
+		* towncrier is a utility to produce useful, summarised news files for your project
+			* https://github.com/hawkowl/towncrier
+
+Graphs, Plots,...
+	https://medium.com/@plotlygraphs/introducing-dash-5ecf7191b503
+
+closer
+	run, monitor and closer remote SSH processes automatically
+	https://haarcuba.github.io/closer/
+
+RISE: "Live" Reveal.js Jupyter/IPython Slideshow Extension
+	https://github.com/damianavila/RISE
+
+PyPI Quick and Dirty https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/
+    A completely incomplete guide to packaging a Python module and sharing it with the world on PyPI. - Hynek Schlawack
+
+Videos: 
+    Europython Rimini: https://www.youtube.com/c/EuroPythonConference
+
+Neues Celery-Release:
+    http://docs.celeryproject.org/en/master/changelog.html#version-4-1-0
+    * viele fixes
+    * AWS DynamoDB als result backend
+
+    
+http://treyhunner.com/2017/07/craft-your-python-like-poetry/
+ 
+* Füll mich!
+
+
+
