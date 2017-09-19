@@ -1,0 +1,36 @@
+PyStaDa Treffen #71 am 23.8.2017
+
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+* zu pypi:  https://www.reddit.com/r/Python/comments/6ug04h/who_maintains_pypi_and_where_and_by_whom_is_it/
+
+* data analysis on crypto currency: https://blog.patricktriest.com/analyzing-cryptocurrencies-python/?utm_source=hackernews
+* Python For Finance: Algorithmic Trading: https://www.datacamp.com/community/tutorials/finance-python-trading#gs.k02oF7o
+* heatmap from ipython: https://github.com/csurfer/pyheatmagic
+* data analysis talks: https://www.analyticsvidhya.com/blog/2017/05/pydata-amsterdam-2017-machine-learning-deep-learning-data-science/?utm_content=buffer02333&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+
+* Optimizing Python Code: Numba vs Cython
+http://gouthamanbalaraman.com/blog/optimizing-python-numba-vs-cython.html
+
+*python concurrency: https://codewithoutrules.com/2017/08/16/concurrency-python/
+
+*yet another python/rust binding: https://github.com/PyO3/pyo3
+* reducing pythons startup time: https://lwn.net/SubscriberLink/730915/d6da49c8d92e815d/
+
+Paramiko is a Python (2.6+, 3.3+) implementation of the SSHv2 protocol [1], providing both client and server functionality.
+	http://www.paramiko.org/
+
+Andere Logging Optionen:
+	https://julien.danjou.info/blog/python-logging-easy-with-daiquiri
+	https://github.com/metachris/logzero/blob/master/README.rst
+	
+https://github.com/Juniper/warp17
+
+https://sultan.readthedocs.io/en/latest/
+
+*talkpythontome: https://talkpython.fm/episodes/show/125/django-rest-framework-and-a-new-api-star-is-born
+
