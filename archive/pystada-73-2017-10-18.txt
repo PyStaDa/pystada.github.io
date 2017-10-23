@@ -1,0 +1,54 @@
+PyStaDa Treffen #73 am 18.10.2017
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+* Füll mich!
+
+Orga:
+	Kommender Stammtisch am 2. November_
+	Wo: CDA - Chaos Darmstadt e.V., Wilhelminenstraße 17, 64283 Darmstadt 
+		https://www.openstreetmap.org/search?query=Chaos%20Darmstadt%20e.V.,%20Wilhelminenstra%C3%9Fe%2017,%2064283%20Darmstadt#map=19/49.87084/8.65113
+		https://www.chaos-darmstadt.de/
+
+
+WAS:
+    Python Release Python 3.6.3
+    Python 3.6.3 is the third maintenance release of Python 3.6. 
+    The Python 3.6 series contains many new features and optimizations. See the What’s New In Python 3.6 document for more information. 
+		https://www.python.org/downloads/release/python-363/
+		
+	WSGI Is Not Enough Anymore — Part I
+	This is the first part of a multi-part series discussing the limitation of WSGI-based Python web applications and the ways to overcome these limitations. 
+		https://medium.com/@amitn241/wsgi-is-not-enough-anymore-part-i-bc9713a79841
+		
+	WSGI Is Not Enough Anymore — Part II
+	In the first part of this series we discussed the problems and limitations which inheres within WSGI-based Python web applications. In this part we will discuss what concurrency is and what is an event driven architecture 
+		https://medium.com/@amitn241/wsgi-is-not-enough-anymore-part-ii-b78b4cfdd09
+		
+	Alice in Python projectland
+		Python project structure and packaging can be intimidating, but, if you take it step by step, it doesn’t have to be. Look at other people’s code, particularly smaller, modular projects, break the work up into pieces, and work through it piece by piece, until you’re all the way down the rabbit hole. 
+			https://veekaybee.github.io/2017/09/26/python-packaging/
+
+	A guide to logging in Python
+		Logging is a critical way to understand what's going on inside an application.
+			https://opensource.com/article/17/9/python-logging
+			
+	Easy Python logging with daiquiri
+		https://julien.danjou.info/blog/python-logging-easy-with-daiquiri
+			https://github.com/jd/daiquiri
+
+INFOS:
+	Rust Stammtisch 10/19/2017 Thursday 7:00 PM
+		Chaos Darmstadt e.V., Wilhelminenstraße 17, 64283 Darmstadt
+
+Events:
+	PyCon.DE 2017 & PyData Karlsruhe October 25–27
+		
+
+
+
+
