@@ -28,7 +28,7 @@ DTSTART;TZID=Europe/Berlin:20160210T190000
 DTEND;TZID=Europe/Berlin:20160210T220000
 DESCRIPTION:Öffentlicher Stammtisch zur Programmiersprache Python\nNäher
  e Infos: https://pystada.github.io/
-LOCATION:COWO 21\, Holzhofallee 21\, 64295 Darmstadt
+LOCATION:CDA Chaos Darmstadt e.V.\, Wilhelminenstraße 17\, 64283 Darmstadt
 URL:https://pystada.github.io
 SEQUENCE:1
 END:VEVENT

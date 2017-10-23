@@ -11,11 +11,11 @@ except ImportError:
     requests = None
 
 SHOWN_DATES = 3
-REAL_FIRST_DATE = datetime.datetime(2014, 1, 29, 19)
-FIRST_DATE = datetime.datetime(2016, 2, 10, 19)
+REAL_FIRST_DATE = datetime.datetime(2017, 10, 5, 19)
+FIRST_DATE = datetime.datetime(2017, 10, 5, 19)
 DELTA = datetime.timedelta(weeks=4)
-DATES_TO_SKIP = (datetime.datetime(2014, 12, 31, 19),
-                 datetime.datetime(2015, 12, 30, 19),)
+DATES_TO_SKIP = (datetime.datetime(2016, 12, 30, 19),
+                 datetime.datetime(2017, 12, 28, 19),)
 
 WANTED_LOCALE = 'de_DE.UTF-8'
 
@@ -42,9 +42,9 @@ RECOMMENDED_MAILING_LISTS = [
 def update_site():
     def format_date(date, hide_agenda_link=False):
         if hide_agenda_link:
-            line_template = '<li><span style="color: #999999;">Mittwoch, {date.day}. {month} {date.year} um {date.hour}:{date.minute:02} Uhr</span></li>'
+            line_template = '<li><span style="color: #999999;">Donnerstag, {date.day}. {month} {date.year} um {date.hour}:{date.minute:02} Uhr</span></li>'
         else:
-            line_template = '<li id="current"><span>Mittwoch, {date.day}. {month} {date.year} um {date.hour}:{date.minute:02} Uhr (<a href="https://pads.darmstadt.ccc.de/p/pystada-{date.year}-{date.month:02}-{date.day:02}">Agenda</a>)</span></li>'
+            line_template = '<li id="current"><span>Donnerstag, {date.day}. {month} {date.year} um {date.hour}:{date.minute:02} Uhr (<a href="https://pads.darmstadt.ccc.de/p/pystada-{date.year}-{date.month:02}-{date.day:02}">Agenda</a>)</span></li>'
 
         return line_template.format(date=date, month=date.strftime('%B'))
 
@@ -107,7 +107,7 @@ def get_first_dates():
 def get_new_dates():
     "The dates sinces Christian and Sven took over running PyStaDa."
     today = datetime.datetime.now()
-    issue = 51
+    issue = 73
     starting_date = FIRST_DATE
     latest_date = today + DELTA
 
