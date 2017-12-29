@@ -19,20 +19,36 @@ RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-LAST-MODIFIED:20171101T110521Z
-DTSTAMP:20171101T110521Z
-UID:20150422T190000/0000001@pystada.github.io
+LAST-MODIFIED:20171229T230104Z
+DTSTAMP:20171229T230104Z
+UID:9ff39fef-9bf8-449f-b01e-2a2b283f8c00
 SUMMARY:Python Stammtisch Darmstadt
 ORGANIZER:mailto:pystada@lists.chaos-darmstadt.de
-RRULE:FREQ=WEEKLY;INTERVAL=4;BYDAY=TH
-DTSTART;TZID=Europe/Berlin:20171102T190000
-DTEND;TZID=Europe/Berlin:20171102T220000
+DTSTART;TZID=Europe/Berlin:20180111T190000
+DTEND;TZID=Europe/Berlin:20180111T220000
 DESCRIPTION:Öffentlicher Stammtisch zur Programmiersprache Python\nNäher
  e Infos: https://pystada.github.io/
 LOCATION:CDA Chaos Darmstadt e.V.\, Wilhelminenstraße 17\, 64283 Darmstad
  t
 URL:https://pystada.github.io
-SEQUENCE:3
-X-MOZ-GENERATION:2
+SEQUENCE:5
+X-MOZ-GENERATION:5
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20171229T230008Z
+DTSTAMP:20171229T230008Z
+UID:20150422T190000/0000001@pystada.github.io
+SUMMARY:Python Stammtisch Darmstadt
+ORGANIZER:mailto:pystada@lists.chaos-darmstadt.de
+RRULE:FREQ=WEEKLY;INTERVAL=4;BYDAY=TH
+DTSTART;TZID=Europe/Berlin:20180222T190000
+DTEND;TZID=Europe/Berlin:20180222T220000
+DESCRIPTION:Öffentlicher Stammtisch zur Programmiersprache Python\nNäher
+ e Infos: https://pystada.github.io/
+LOCATION:CDA Chaos Darmstadt e.V.\, Wilhelminenstraße 17\, 64283 Darmstad
+ t
+URL:https://pystada.github.io
+SEQUENCE:4
+X-MOZ-GENERATION:4
 END:VEVENT
 END:VCALENDAR
