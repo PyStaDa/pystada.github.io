@@ -1,0 +1,43 @@
+PyStaDa Treffen #74 am 2.11.2017
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+* Simple distributed task processing for Python 3: http://dramatiq.io
+  * what alternatives exist? how do they compare?
+	  * https://dask.pydata.org/en/latest/
+* "Python is Weird" was a talk at PyCon.DE which I unfortunately missed.
+	* I propose we go through the slides and try to understand why the examples work
+	* Slides are here: http://www.python-mit.ch/files/dave-halter-python-is-weird.pdf
+	* The PyCon video is still not online, but the speaker held the talk before, so we can also watch it together instead of going through the slides: https://www.youtube.com/watch?v=6NVUbO7pFtA
+	* Maybe we can tackle the riddle on the last slide: lambda:br''or.6*.3+.4jif.1else-...();float.__int__(eval('_')().imag*100);chr(int(str(_),16)+1)
+	
+* mentions of old meetings:
+    * https://www.python.org/events/python-user-group/387/
+    * https://python-verband.org/mitmachen/ug/pystada
+    * https://wiki.python.org/moin/LocalUserGroups#Germany (not listed yet)
+
+* switch to https://md.darmstadt.ccc.de/ ?
+
+* Microservices are hard — an invaluable guide to microservices.
+	* If you’re looking to move to Microservices.....
+		* https://hackernoon.com/microservices-are-hard-an-invaluable-guide-to-microservices-2d06bd7bcf5d
+	
+* pytest-benchmark 3.1.1               
+	* A ``py.test`` fixture for benchmarking code. It will group the tests into rounds that are calibrated to the chosen timer. See calibration_ and FAQ_.
+		*  https://pypi.python.org/pypi/pytest-benchmark
+		
+* Scipy Lecture Notes
+	* One document to learn numerics, science, and data with Python
+		* http://www.scipy-lectures.org/
+		
+* A Complete Beginner's Guide to Django
+	* https://simpleisbetterthancomplex.com/series/beginners-guide/1.11/
+	
+* Most python exercises I found online were either too easy or tested things that were not directly related to python (mostly data structures or algorithms).
+	* https://www.ynonperek.com/2017/09/21/python-exercises/amp/
+	
+https://ccc-ffm.de/2015/04/monatlicher-python-user-group-treff-im-hackquarter/

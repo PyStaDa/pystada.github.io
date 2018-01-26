@@ -1,0 +1,26 @@
+PyStaDa Treffen #75 am 30.11.2017
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+Swagger Client generation
+* Swagger Codegen
+* https://github.com/Yelp/bravado
+
+http://aiohttp.readthedocs.io/en/stable/
+
+Wir könnten mal besprechen, was wir so im kommenden Jahr als Stammtisch machen wollen. 
+Was jeden so interessiert, was er beitragen könnte,... 
+	- Talk über xxx
+Wie das Ganze im kommenden Jahr weiter gehen soll.
+
+Vorschlaege
+* 25.1.2018 Rasa (Christian)
+* 22.2.2018 Pytest (Sven)
+* 22.3.2018 
+
+* Francis fragen...
+
+* Füll mich!
