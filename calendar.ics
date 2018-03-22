@@ -28,7 +28,7 @@ DTSTART;TZID=Europe/Berlin:20180111T190000
 DTEND;TZID=Europe/Berlin:20180111T220000
 DESCRIPTION:Öffentlicher Stammtisch zur Programmiersprache Python\nNäher
  e Infos: https://pystada.github.io/
-LOCATION:CDA Chaos Darmstadt e.V.\, Wilhelminenstraße 17\, 64283 Darmstad
+LOCATION:Chaos Computer Club Darmstadt e.V.\, Wilhelminenstraße 17\, 64283 Darmstad
  t
 URL:https://pystada.github.io
 SEQUENCE:5
@@ -45,7 +45,7 @@ DTSTART;TZID=Europe/Berlin:20180222T190000
 DTEND;TZID=Europe/Berlin:20180222T220000
 DESCRIPTION:Öffentlicher Stammtisch zur Programmiersprache Python\nNäher
  e Infos: https://pystada.github.io/
-LOCATION:CDA Chaos Darmstadt e.V.\, Wilhelminenstraße 17\, 64283 Darmstad
+LOCATION:Chaos Computer Club Darmstadt e.V.\, Wilhelminenstraße 17\, 64283 Darmstad
  t
 URL:https://pystada.github.io
 SEQUENCE:4

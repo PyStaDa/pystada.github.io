@@ -35,7 +35,7 @@ except locale.Error:
 
 
 RECOMMENDED_MAILING_LISTS = [
-    ("Chaos Darmstadt", "hackspace@lists.metarheinmain.de", "https://lists.metarheinmain.de/mailman/listinfo/darmstadt"),
+    ("Chaos Computer Club Darmstadt e.V.", "hackspace@lists.metarheinmain.de", "https://lists.metarheinmain.de/mailman/listinfo/darmstadt"),
     ("Python-DE", "python-de@python.org", "http://mail.python.org/mailman/listinfo/python-de"),
 ]
 
