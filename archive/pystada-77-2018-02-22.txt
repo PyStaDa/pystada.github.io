@@ -1,0 +1,31 @@
+PyStaDa Treffen #77 am 22.2.2018
+=================================
+
+Visit: http://pystada.github.io or join #PyStaDa on Hackint or follow @PyStaDa on Twitter
+
+Agenda
+------
+
+** CoWo21 is listed as sponsor but we are not there anymore
+** OReilly book discounts?
+* Umstieg auf hackMD
+** https://github.com/hackmdio/hackmd/issues/330
+** https://github.com/hackmdio/d/pull/673
+	
+* Machine Learning with python: https://www.kaggle.com/learn/overview
+* https://twitter.com/python_tip/status/953174987346776065
+
+* Let’s talk about usernames
+** https://www.b-list.org/weblog/2018/feb/11/usernames/
+
+* Logging: https://logzero.readthedocs.io/en/latest/
+
+* OTP-Lib: https://github.com/pyotp/pyotp
+
+Ankündigungen sollten wenn möglich nicht nur auf der PyStaDa-ML, sondern auch auf anderen relevanten MLs erscheinen, da wir ja auch potenzielle neue Mitglieder ansprechen wollen.
+Auf folgenden Mailinglisten sind die Ankündigungen gut aufgehoben:
+	Chaos Darmstadt: hackspace@lists.metarheinmain.de (https://lists.metarheinmain.de/mailman/listinfo/darmstadt)
+	wäre public nicht besser?
+Python-DE: python-de@python.org (http://mail.python.org/mailman/listinfo/python-de)
+
+https://ccc-ffm.de/2018/01/monatlicher-python-user-group-treff-im-hackquarter/

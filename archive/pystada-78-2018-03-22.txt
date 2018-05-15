@@ -1,0 +1,6 @@
+PyStaDa
+=====
+
+ok, let's convert opensplit (https://github.com/OpenSplit/opensplit-backend) to either
+* sanic, or
+* aiohttp
