@@ -1,0 +1,8 @@
+Willkommen im Etherpad!
+
+Dieses Pad synchronisiert beim Tippen, daher werden alle Personen die gerade dieses Pad
+anschauen das selbe sehen. Dies erlaubt gemeinsam, gleichzeitig an einem Text zu arbeiten.
+
+
+def print_test():
+    print ("hello world")
